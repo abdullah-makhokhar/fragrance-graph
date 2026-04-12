@@ -63,7 +63,7 @@ export const CONFIG = {
     },
     dark: {
       bg: '#0f172a',
-      linkDefault: '#334155',
+      linkDefault: '#495669ff',
       linkHover: '#FBBF24',
       text: '#f1f5f9',
       border: '#1e293b',
