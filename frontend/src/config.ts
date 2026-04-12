@@ -72,7 +72,7 @@ export const CONFIG = {
 
   // Interaction Settings
   interaction: {
-    zoomExtent: [0.1, 8] as [number, number], // Min and Max zoom levels
+    zoomExtent: [0.05, 6] as [number, number], // Min and Max zoom levels
     magnificationRadius: 100,                 // Distance at which dock effect starts
     magnificationStrength: 1.5,               // Max size multiplier at cursor
     clickPickRadius: 25,                      // Mouse sensitivity for picking nodes
@@ -91,6 +91,8 @@ export const CONFIG = {
     fragranceCount: 200,      // Initial number of nodes to show
     minRating: 0,             // Default minimum rating filter
     maxRating: 5,             // Default maximum rating filter
+    defaultDarkMode: true,    // Start in dark mode by default
+    initialZoom: 0.1,        // Much more zoomed out by default
   }
 };
 

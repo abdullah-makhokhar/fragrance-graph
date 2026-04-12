@@ -8,6 +8,7 @@ interface GraphVisualizationProps {
   selectedNode: Fragrance | null;
   onNodeSelect: (node: Fragrance | null) => void;
   darkMode: boolean;
+  refreshKey?: number;
 }
 
 const getClusterColor = (cluster: string): string => {
@@ -19,13 +20,23 @@ const GraphVisualization: React.FC<GraphVisualizationProps> = ({
   selectedNode,
   onNodeSelect,
   darkMode,
+  refreshKey,
 }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   
   const hoveredNodeRef = useRef<Fragrance | null>(null);
   const mousePosRef = useRef({ x: -9999, y: -9999 });
-  const transformRef = useRef(d3.zoomIdentity);
+
+  // Initialize with zoomed out state
+  const transformRef = useRef(
+    d3.zoomIdentity
+      .translate(
+        (window.innerWidth / 2) * (1 - CONFIG.defaults.initialZoom),
+        (window.innerHeight / 2) * (1 - CONFIG.defaults.initialZoom)
+      )
+      .scale(CONFIG.defaults.initialZoom)
+  );
   const zoomRef = useRef<any>(null);
   
   const [activeHoverNode, setActiveHoverNode] = useState<Fragrance | null>(null);
@@ -73,6 +84,16 @@ const GraphVisualization: React.FC<GraphVisualizationProps> = ({
     ctx.scale(dpr, dpr);
 
     const { physics, interaction } = CONFIG;
+
+    // If refreshKey changed, we want to re-randomize positions
+    if (refreshKey && refreshKey > 0) {
+      data.nodes.forEach((n: any) => {
+        delete n.x;
+        delete n.y;
+        delete n.vx;
+        delete n.vy;
+      });
+    }
 
     // Simulation setup
     const simulation = d3.forceSimulation(data.nodes)
@@ -213,7 +234,7 @@ const GraphVisualization: React.FC<GraphVisualizationProps> = ({
       canvas.removeEventListener('mousemove', handleMouseMove);
       canvas.removeEventListener('click', handleClick);
     };
-  }, [data, selectedNode, darkMode, onNodeSelect, calculateNodeSize, connectionInfo.adjacency]);
+  }, [data, selectedNode, darkMode, onNodeSelect, calculateNodeSize, connectionInfo.adjacency, refreshKey]);
 
   const handleZoom = (factor: number) => {
     if (zoomRef.current && canvasRef.current) {

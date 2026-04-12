@@ -15,7 +15,7 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [refreshKey, setRefreshKey] = useState(0);
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(CONFIG.defaults.defaultDarkMode);
   const [fragranceCount, setFragranceCount] = useState(CONFIG.defaults.fragranceCount);
 
   const handleNodeSelect = (node: Fragrance | null) => {
@@ -159,7 +159,7 @@ function App() {
         <div className="flex-1 relative overflow-hidden">
           {filteredData && (
             <GraphVisualization
-              key={refreshKey}
+              refreshKey={refreshKey}
               data={filteredData}
               selectedNode={selectedNode}
               onNodeSelect={handleNodeSelect}
