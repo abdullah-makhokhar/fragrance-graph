@@ -100,7 +100,10 @@ export const DEFAULT_FILTERS = {
   brands: new Set<string>(),
   genders: new Set<string>(),
   accords: new Set<string>(),
+  seasons: new Set<string>(),
+  occasions: new Set<string>(),
   minRating: CONFIG.defaults.minRating,
   maxRating: CONFIG.defaults.maxRating,
+  priceRange: [0, 500] as [number, number],
   years: new Set<number>(),
 };

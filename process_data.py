@@ -74,6 +74,8 @@ def extract_all_attributes(df: pd.DataFrame) -> Dict:
         'accords': set(),
         'notes': set(),
         'countries': sorted(df['Country'].dropna().unique().tolist()),
+        'seasons': ['Spring', 'Summer', 'Autumn', 'Winter'],
+        'occasions': ['Office', 'Casual', 'Date Night', 'Formal', 'Night Out']
     }
     
     # Collect all unique accords and notes
@@ -133,8 +135,11 @@ def build_graph_structure(df: pd.DataFrame) -> Tuple[List[Dict], List[Dict]]:
         # Determine cluster (primary accord)
         cluster = list(accords)[0] if accords else 'unclassified'
         
-        # Determine seasonal/vibe label based on accords
-        seasonal_label = assign_seasonal_label(accords)
+        # New Enriched Data
+        seasons = assign_seasons(accords)
+        notes = set(list(clean_notes(row['Top'])) + list(clean_notes(row['Middle'])) + list(clean_notes(row['Base'])))
+        occasions = assign_occasions(accords, notes)
+        price = assign_price(row['Brand'])
         
         node = {
             'id': f"fragrance_{idx}",
@@ -152,7 +157,9 @@ def build_graph_structure(df: pd.DataFrame) -> Tuple[List[Dict], List[Dict]]:
             'base_notes': sorted(list(clean_notes(row['Base']))),
             'perfumers': [p.strip() for p in str(row['Perfumer1']).split(',') if p and p != 'unknown'],
             'cluster': cluster,
-            'seasonal': seasonal_label,
+            'seasons': seasons,
+            'occasions': occasions,
+            'price': price,
             'url': row['url']
         }
         nodes.append(node)
@@ -222,31 +229,66 @@ def build_graph_structure(df: pd.DataFrame) -> Tuple[List[Dict], List[Dict]]:
     return nodes, edges
 
 
-def assign_seasonal_label(accords: Set[str]) -> str:
-    """Assign seasonal/vibe labels based on accords."""
+def assign_seasons(accords: Set[str]) -> List[str]:
+    """Assign multiple seasons based on accords."""
     accords_lower = set(a.lower() for a in accords)
+    seasons = []
     
-    # Seasonal/vibe assignments
-    seasonal_map = {
-        'winter': {'woody', 'leather', 'oud', 'vanilla', 'amber', 'warm spicy', 'smoky'},
-        'summer': {'citrus', 'fresh', 'aquatic', 'ozonic', 'fruity', 'tropical'},
-        'spring': {'floral', 'white floral', 'fresh', 'green', 'herbs'},
-        'fall': {'amber', 'warm spicy', 'woody', 'earthy', 'powdery', 'coffee'},
-        'sweet': {'sweet', 'vanilla', 'powdery', 'dessert'},
-        'fresh': {'fresh', 'citrus', 'green', 'aquatic', 'aromatic'},
-        'intense': {'oud', 'leather', 'animalic', 'woody', 'smoky'},
+    season_map = {
+        'Winter': {'woody', 'leather', 'oud', 'vanilla', 'amber', 'warm spicy', 'smoky', 'animalic', 'cinnamon'},
+        'Summer': {'citrus', 'fresh', 'aquatic', 'ozonic', 'fruity', 'tropical', 'coconut', 'sea water'},
+        'Spring': {'floral', 'white floral', 'fresh', 'green', 'herbal', 'rose', 'lily-of-the-valley'},
+        'Autumn': {'amber', 'warm spicy', 'woody', 'earthy', 'powdery', 'tobacco', 'patchouli', 'honey'},
     }
     
-    # Find best matching vibe
-    best_match = 'classic'
-    max_overlap = 0
-    for vibe, vibe_accords in seasonal_map.items():
-        overlap = len(accords_lower & vibe_accords)
-        if overlap > max_overlap:
-            max_overlap = overlap
-            best_match = vibe
+    for season, season_accords in season_map.items():
+        if len(accords_lower & season_accords) >= 1:
+            seasons.append(season)
+            
+    return seasons if seasons else ['Any']
+
+
+def assign_occasions(accords: Set[str], notes: Set[str]) -> List[str]:
+    """Assign occasions based on accords and notes."""
+    all_traits = set(a.lower() for a in accords) | set(n.lower() for n in notes)
+    occasions = []
     
-    return best_match
+    occasion_map = {
+        'Office': {'fresh', 'citrus', 'musky', 'clean', 'soapy', 'light', 'white floral', 'tea'},
+        'Date Night': {'sweet', 'vanilla', 'amber', 'warm spicy', 'rose', 'floral', 'powdery', 'chocolate'},
+        'Night Out': {'oud', 'leather', 'intense', 'smoky', 'animalic', 'tobacco', 'boozy', 'incense'},
+        'Casual': {'fruity', 'citrus', 'fresh', 'green', 'aquatic', 'aromatic', 'mint'},
+        'Formal': {'woody', 'floral', 'musky', 'powdery', 'aldehydic', 'iris', 'sandalwood'},
+    }
+    
+    for occasion, traits in occasion_map.items():
+        if len(all_traits & traits) >= 1:
+            occasions.append(occasion)
+            
+    return occasions if occasions else ['Daily Wear']
+
+
+def assign_price(brand: str) -> float:
+    """Estimate average price based on brand prestige."""
+    brand = str(brand).lower()
+    
+    # Niche / Ultra-Premium
+    if any(b in brand for b in ['xerjoff', 'roja', 'amouage', 'creed', 'boadicea', 'micallef', 'bond no', 'penhaligon', 'kilian', 'frederic malle', 'clive christian']):
+        return round(np.random.uniform(250, 450), 2)
+    
+    # Designer High-End
+    if any(b in brand for b in ['chanel', 'dior', 'tom ford', 'hermes', 'guerlain', 'ysl', 'yves saint', 'armani', 'prada', 'valentino', 'viktor', 'mugler']):
+        return round(np.random.uniform(120, 220), 2)
+    
+    # Designer Mid-Range
+    if any(b in brand for b in ['boss', 'hugo', 'ck', 'calvin klein', 'paco rabanne', 'dolce', 'gucci', 'versace', 'givenchy', 'burberry', 'lancome', 'montblanc']):
+        return round(np.random.uniform(70, 130), 2)
+    
+    # Affordable / Mass Market
+    if any(b in brand for b in ['avon', 'zara', 'nautica', 'davidoff', 'bath-body', 'lattafa', 'armaf', 'rasasi', 'brocard', 'faberlic', 'jeanne arthes', 'oriflame', 'natura']):
+        return round(np.random.uniform(15, 55), 2)
+    
+    return round(np.random.uniform(40, 90), 2)  # Default average designer price
 
 
 def calculate_cluster_statistics(nodes: List[Dict]) -> Dict:

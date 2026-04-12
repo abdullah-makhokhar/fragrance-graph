@@ -123,7 +123,7 @@ const Sidebar: React.FC<SidebarProps> = ({
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-blue-500 opacity-60 mt-0.5">•</span>
-                  Graph is color-coded by <strong className="text-slate-900 dark:text-slate-200">Primary Accord</strong>
+                  <strong className="text-blue-600 dark:text-blue-400">Search highlights</strong> matches instead of hiding nodes!
                 </li>
               </ul>
             </div>
@@ -149,16 +149,17 @@ const Sidebar: React.FC<SidebarProps> = ({
                  onChange={e => onFragranceCountChange(parseInt(e.target.value))}
                  className="w-full accent-blue-600"
                />
-               <p className="text-[10px] text-slate-400 mt-2 font-medium italic">Adjusting this will dynamically re-sample the top fragrances from the dataset.</p>
             </div>
           </div>
         ) : (
           <div className="space-y-4 animate-in fade-in slide-in-from-bottom-2">
             {/* Filter Sections */}
             {[
-              { id: 'brands', label: 'Brands', attr: attributes.brands, type: 'searchable' },
-              { id: 'genders', label: 'Gender', attr: attributes.genders, type: 'chips' },
-              { id: 'accords', label: 'Accords', attr: attributes.accords, type: 'chips' },
+              { id: 'brands', label: 'Brands', attr: attributes.brands },
+              { id: 'genders', label: 'Gender', attr: attributes.genders },
+              { id: 'seasons', label: 'Season', attr: attributes.seasons },
+              { id: 'occasions', label: 'Occasion', attr: attributes.occasions },
+              { id: 'accords', label: 'Accords', attr: attributes.accords },
             ].map((section) => (
               <div key={section.id} className="border border-slate-100 dark:border-slate-800 rounded-2xl overflow-hidden bg-white dark:bg-slate-900/50">
                 <button
@@ -174,7 +175,7 @@ const Sidebar: React.FC<SidebarProps> = ({
                 {expandedSection === section.id && (
                   <div className="p-4 pt-0 max-h-60 overflow-y-auto">
                     <div className="flex flex-wrap gap-2 mt-3">
-                      {section.attr.slice(0, 50).map((val: any) => (
+                      {(section.attr || []).slice(0, 100).map((val: any) => (
                         <button
                           key={val}
                           onClick={() => toggleFilter(section.id as any, val)}
@@ -192,6 +193,27 @@ const Sidebar: React.FC<SidebarProps> = ({
                 )}
               </div>
             ))}
+
+            {/* Price Slider */}
+            <div className="p-5 bg-slate-50 dark:bg-slate-800/50 rounded-2xl border border-slate-100 dark:border-slate-800 font-display">
+               <div className="flex justify-between items-center mb-4">
+                  <h4 className="text-xs font-bold text-slate-800 dark:text-slate-200 uppercase tracking-widest">Price Range (Avg)</h4>
+                  <span className="text-blue-600 font-extrabold text-sm">${filters.priceRange[1]}</span>
+               </div>
+               <input
+                 type="range"
+                 min="0"
+                 max="500"
+                 step="10"
+                 value={filters.priceRange[1]}
+                 onChange={e => setFilters({ ...filters, priceRange: [0, parseInt(e.target.value)] })}
+                 className="w-full accent-blue-600 h-1.5 rounded-lg appearance-none cursor-pointer bg-slate-200 dark:bg-slate-700"
+               />
+               <div className="flex justify-between mt-2 text-[10px] font-bold text-slate-400 uppercase tracking-tighter">
+                  <span>$0</span>
+                  <span>$500+</span>
+               </div>
+            </div>
 
             {/* Rating Slider */}
             <div className="p-5 bg-slate-50 dark:bg-slate-800/50 rounded-2xl border border-slate-100 dark:border-slate-800">

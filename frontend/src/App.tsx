@@ -8,18 +8,18 @@ import { CONFIG, DEFAULT_FILTERS } from './config';
 
 function App() {
   const [graphData, setGraphData] = useState<GraphData | null>(null);
-  const [filteredData, setFilteredData] = useState<GraphData | null>(null);
-  const [selectedNode, setSelectedNode] = useState<Fragrance | null>(null);
-  const [searchQuery, setSearchQuery] = useState('');
-  const [filters, setFilters] = useState<Filters>(DEFAULT_FILTERS);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
-  const [refreshKey, setRefreshKey] = useState(0);
-  const [darkMode, setDarkMode] = useState(CONFIG.defaults.defaultDarkMode);
-  const [fragranceCount, setFragranceCount] = useState(CONFIG.defaults.fragranceCount);
+  const [spotlightNode, setSpotlightNode] = useState<Fragrance | null>(null);
+  const [highlightedIds, setHighlightedIds] = useState<Set<string>>(new Set());
 
   const handleNodeSelect = (node: Fragrance | null) => {
     setSelectedNode(node);
+  };
+
+  const handleSpotlight = (node: Fragrance | null) => {
+    setSpotlightNode(node);
+    if (node) {
+      setSelectedNode(null); // Clear selection when entering spotlight
+    }
   };
 
   // Load graph data
@@ -44,61 +44,113 @@ function App() {
     loadGraphData();
   }, []);
 
+  // Helper to get ID from source/target which could be index, object, or ID string
+  const getId = (ref: any, nodes: Fragrance[]) => {
+    if (typeof ref === 'object' && ref !== null) return ref.id;
+    if (typeof ref === 'number') return nodes[ref]?.id;
+    return ref;
+  };
+
   // Apply filters and search
   useEffect(() => {
     if (!graphData) return;
 
-    // Use a subset of nodes based on quality (rating count) if we want to limit
+    // 1. Initial pool based on count
     let pool = [...graphData.nodes].sort((a, b) => b.rating_count - a.rating_count).slice(0, fragranceCount);
 
-    let filtered = pool.filter(node => {
+    // 2. Spotlight Filter (if active)
+    if (spotlightNode) {
+      const neighborIds = new Set<string>();
+      neighborIds.add(spotlightNode.id);
+      
+      graphData.links.forEach(link => {
+        const sId = getId(link.source, graphData.nodes);
+        const tId = getId(link.target, graphData.nodes);
+        if (sId === spotlightNode.id) neighborIds.add(tId);
+        if (tId === spotlightNode.id) neighborIds.add(sId);
+      });
+
+      const spotlightNodes = graphData.nodes.filter(n => neighborIds.has(n.id));
+      const spotlightLinks = graphData.links.filter(link => {
+        const sId = getId(link.source, graphData.nodes);
+        const tId = getId(link.target, graphData.nodes);
+        return neighborIds.has(sId) && neighborIds.has(tId);
+      }).map(link => ({
+        ...link,
+        source: getId(link.source, graphData.nodes),
+        target: getId(link.target, graphData.nodes)
+      }));
+
+      setFilteredData({
+        ...graphData,
+        nodes: spotlightNodes,
+        links: spotlightLinks,
+      });
+      setHighlightedIds(new Set()); // No highlighting in spotlight mode
+      return;
+    }
+
+    // 3. Hard Filters (Remove nodes)
+    let hardFiltered = pool.filter(node => {
       if (filters.brands.size > 0 && !filters.brands.has(node.brand)) return false;
       if (filters.genders.size > 0 && !filters.genders.has(node.gender)) return false;
-      if (filters.accords.size > 0) {
-        if (!node.accords.some(accord => filters.accords.has(accord))) return false;
-      }
       if (node.rating < filters.minRating || node.rating > filters.maxRating) return false;
       if (filters.years.size > 0 && node.year && !filters.years.has(node.year)) return false;
-
-      if (searchQuery) {
-        const query = searchQuery.toLowerCase();
-        const matches =
-          node.name.toLowerCase().includes(query) ||
-          node.brand.toLowerCase().includes(query) ||
-          node.accords.some(a => a.toLowerCase().includes(query)) ||
-          node.country.toLowerCase().includes(query);
-        if (!matches) return false;
-      }
-
       return true;
     });
 
-    // Helper to get ID from source/target which could be index, object, or ID string
-    const getId = (ref: any) => {
-      if (typeof ref === 'object' && ref !== null) return ref.id;
-      if (typeof ref === 'number') return graphData.nodes[ref]?.id;
-      return ref;
+    // 4. Soft Filters / Highlighting (Dim nodes)
+    const matchesSearch = (node: Fragrance) => {
+      if (!searchQuery) return true;
+      const query = searchQuery.toLowerCase();
+      return (
+        node.name.toLowerCase().includes(query) ||
+        node.brand.toLowerCase().includes(query) ||
+        node.accords.some(a => a.toLowerCase().includes(query)) ||
+        node.country.toLowerCase().includes(query)
+      );
     };
 
-    const filteredIds = new Set(filtered.map(n => n.id));
+    const matchesAttributes = (node: Fragrance) => {
+      if (filters.seasons.size > 0 && !node.seasons.some(s => filters.seasons.has(s))) return false;
+      if (filters.occasions.size > 0 && !node.occasions.some(o => filters.occasions.has(o))) return false;
+      if (node.price < filters.priceRange[0] || node.price > filters.priceRange[1]) return false;
+      if (filters.accords.size > 0 && !node.accords.some(a => filters.accords.has(a))) return false;
+      return true;
+    };
+
+    const isSoftFiltering = searchQuery !== '' || filters.seasons.size > 0 || filters.occasions.size > 0 || filters.accords.size > 0 || filters.priceRange[0] > 0 || filters.priceRange[1] < 500;
+    
+    const highlights = new Set<string>();
+    if (isSoftFiltering) {
+      hardFiltered.forEach(node => {
+        if (matchesSearch(node) && matchesAttributes(node)) {
+          highlights.add(node.id);
+        }
+      });
+    }
+
+    const hardFilteredIds = new Set(hardFiltered.map(n => n.id));
     const filteredLinks = graphData.links
       .filter(link => {
-        const sourceId = getId(link.source);
-        const targetId = getId(link.target);
-        return sourceId && targetId && filteredIds.has(sourceId) && filteredIds.has(targetId);
+        const sourceId = getId(link.source, graphData.nodes);
+        const targetId = getId(link.target, graphData.nodes);
+        return sourceId && targetId && hardFilteredIds.has(sourceId) && hardFilteredIds.has(targetId);
       })
       .map(link => ({
         ...link,
-        source: getId(link.source),
-        target: getId(link.target)
+        source: getId(link.source, graphData.nodes),
+        target: getId(link.target, graphData.nodes)
       }));
 
     setFilteredData({
       ...graphData,
-      nodes: filtered.map(n => ({ ...n })),
+      nodes: hardFiltered.map(n => ({ ...n })),
       links: filteredLinks,
     });
-  }, [graphData, filters, searchQuery, fragranceCount]);
+    setHighlightedIds(isSoftFiltering ? highlights : new Set());
+
+  }, [graphData, filters, searchQuery, fragranceCount, spotlightNode]);
 
   const handleRefresh = () => {
     setRefreshKey(prev => prev + 1);
@@ -164,9 +216,23 @@ function App() {
               selectedNode={selectedNode}
               onNodeSelect={handleNodeSelect}
               darkMode={darkMode}
+              highlightedIds={highlightedIds}
+              isSpotlightMode={!!spotlightNode}
             />
           )}
         </div>
+
+        {spotlightNode && (
+          <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-40 animate-in slide-in-from-bottom-5 duration-500">
+            <button 
+              onClick={() => setSpotlightNode(null)}
+              className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-2xl shadow-2xl flex items-center gap-3 transition-all hover:scale-105 active:scale-95"
+            >
+              <span className="text-lg">✕</span>
+              Exit Spotlight: {spotlightNode.name}
+            </button>
+          </div>
+        )}
 
         <div className="absolute top-6 right-6 px-5 py-3 glass rounded-2xl border border-slate-200 dark:border-slate-800 animate-in slide-in-from-top-4 duration-500 pointer-events-none">
            <div className="flex items-center gap-6">
@@ -188,6 +254,7 @@ function App() {
           node={selectedNode}
           onClose={() => setSelectedNode(null)}
           darkMode={darkMode}
+          onSpotlight={handleSpotlight}
         />
       )}
     </div>

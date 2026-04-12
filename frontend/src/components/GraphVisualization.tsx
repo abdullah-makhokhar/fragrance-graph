@@ -9,6 +9,8 @@ interface GraphVisualizationProps {
   onNodeSelect: (node: Fragrance | null) => void;
   darkMode: boolean;
   refreshKey?: number;
+  highlightedIds?: Set<string>;
+  isSpotlightMode?: boolean;
 }
 
 const getClusterColor = (cluster: string): string => {
@@ -21,6 +23,8 @@ const GraphVisualization: React.FC<GraphVisualizationProps> = ({
   onNodeSelect,
   darkMode,
   refreshKey,
+  highlightedIds,
+  isSpotlightMode,
 }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -99,13 +103,13 @@ const GraphVisualization: React.FC<GraphVisualizationProps> = ({
     const simulation = d3.forceSimulation(data.nodes)
       .force('link', d3.forceLink(data.links)
         .id((d: any) => d.id)
-        .distance((d: any) => physics.linkDistanceBase - d.weight * physics.linkDistanceWeight)
-        .strength(physics.linkStrength)
+        .distance((d: any) => isSpotlightMode ? 200 : (physics.linkDistanceBase - d.weight * physics.linkDistanceWeight))
+        .strength(isSpotlightMode ? 1 : physics.linkStrength)
       )
-      .force('charge', d3.forceManyBody().strength(physics.chargeStrength).distanceMax(physics.chargeMaxDistance))
-      .force('center', d3.forceCenter(width / 2, height / 2).strength(physics.centerStrength))
-      .force('collide', d3.forceCollide().radius(d => calculateNodeSize(d as any) + physics.collisionRadiusPlus))
-      .velocityDecay(physics.velocityDecay);
+      .force('charge', d3.forceManyBody().strength(isSpotlightMode ? -2000 : physics.chargeStrength).distanceMax(physics.chargeMaxDistance))
+      .force('center', d3.forceCenter(width / 2, height / 2).strength(isSpotlightMode ? 1 : physics.centerStrength))
+      .force('collide', d3.forceCollide().radius(d => calculateNodeSize(d as any) + (isSpotlightMode ? 20 : physics.collisionRadiusPlus)))
+      .velocityDecay(isSpotlightMode ? 0.2 : physics.velocityDecay);
 
     simulationRef.current = simulation;
 
@@ -125,16 +129,28 @@ const GraphVisualization: React.FC<GraphVisualizationProps> = ({
 
       // Draw links
       data.links.forEach((link: any) => {
-        const isRelated = hoveredNode && (
-          link.source.id === hoveredNode.id || link.target.id === hoveredNode.id
+        const sourceId = typeof link.source === 'object' ? link.source.id : link.source;
+        const targetId = typeof link.target === 'object' ? link.target.id : link.target;
+        
+        const isHighlighted = highlightedIds && highlightedIds.size > 0 && 
+                             highlightedIds.has(sourceId) && highlightedIds.has(targetId);
+        
+        const isRelatedToHover = hoveredNode && (
+          sourceId === hoveredNode.id || targetId === hoveredNode.id
         );
+
         ctx.beginPath();
         ctx.moveTo(link.source.x, link.source.y);
         ctx.lineTo(link.target.x, link.target.y);
-        if (isRelated) {
+        
+        if (isRelatedToHover) {
           ctx.strokeStyle = theme.linkHover;
           ctx.globalAlpha = 0.8;
           ctx.lineWidth = 2 / k;
+        } else if (highlightedIds && highlightedIds.size > 0) {
+          ctx.strokeStyle = theme.linkDefault;
+          ctx.globalAlpha = isHighlighted ? 0.4 : 0.03;
+          ctx.lineWidth = (isHighlighted ? 1.5 : 0.5) / k;
         } else {
           ctx.strokeStyle = theme.linkDefault;
           ctx.globalAlpha = 0.3;
@@ -149,6 +165,7 @@ const GraphVisualization: React.FC<GraphVisualizationProps> = ({
         const isHovered = hoveredNode?.id === node.id;
         const isSelected = selectedNode?.id === node.id;
         const isConnected = hoveredNode && connectionInfo.adjacency.get(hoveredNode.id)?.has(node.id);
+        const isHighlighted = !highlightedIds || highlightedIds.size === 0 || highlightedIds.has(node.id);
         
         const dx = node.x - mX;
         const dy = node.y - mY;
@@ -158,26 +175,36 @@ const GraphVisualization: React.FC<GraphVisualizationProps> = ({
           size *= mag;
         }
 
-        const alpha = (hoveredNode && !isHovered && !isConnected) ? 0.15 : 1;
+        let alpha = 1;
+        if (hoveredNode) {
+          alpha = (isHovered || isConnected) ? 1 : 0.15;
+        } else if (highlightedIds && highlightedIds.size > 0) {
+          alpha = isHighlighted ? 1 : 0.08;
+        }
+
         ctx.beginPath();
         ctx.arc(node.x, node.y, size, 0, 2 * Math.PI);
         ctx.fillStyle = getClusterColor(node.cluster);
         ctx.globalAlpha = alpha;
         ctx.fill();
         
-        if (isSelected || isHovered || isConnected) {
+        if (isSelected || (isHovered && isHighlighted) || isConnected) {
           ctx.strokeStyle = isSelected ? (darkMode ? '#fff' : '#000') : (darkMode ? '#94a3b8' : '#475569');
           ctx.lineWidth = (isSelected ? 3 : 1.5) / k;
-          ctx.globalAlpha = 1;
+          ctx.globalAlpha = Math.max(alpha, 0.5);
           ctx.stroke();
         }
         
         if (k > interaction.labelZoomThreshold || isSelected || isHovered) {
-          ctx.globalAlpha = alpha;
-          ctx.font = `600 ${Math.max(11 / k, 9)}px Inter, sans-serif`;
-          ctx.fillStyle = theme.text;
-          ctx.textAlign = 'center';
-          ctx.fillText(node.name.length > 20 ? node.name.substring(0, 17) + '...' : node.name, node.x, node.y + size + 14 / k);
+          if (highlightedIds && highlightedIds.size > 0 && !isHighlighted && !isHovered && !isSelected) {
+            // Hide labels for dimmed nodes
+          } else {
+            ctx.globalAlpha = alpha;
+            ctx.font = `600 ${Math.max(11 / k, 9)}px Inter, sans-serif`;
+            ctx.fillStyle = theme.text;
+            ctx.textAlign = 'center';
+            ctx.fillText(node.name.length > 20 ? node.name.substring(0, 17) + '...' : node.name, node.x, node.y + size + 14 / k);
+          }
         }
       });
       ctx.restore();

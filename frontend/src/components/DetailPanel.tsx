@@ -5,9 +5,10 @@ interface DetailPanelProps {
   node: Fragrance;
   onClose: () => void;
   darkMode: boolean;
+  onSpotlight: (node: Fragrance) => void;
 }
 
-const DetailPanel: React.FC<DetailPanelProps> = ({ node, onClose, darkMode }) => {
+const DetailPanel: React.FC<DetailPanelProps> = ({ node, onClose, darkMode, onSpotlight }) => {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-slate-900/40 backdrop-blur-sm animate-in fade-in duration-300">
       <div 
@@ -26,8 +27,13 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ node, onClose, darkMode }) =>
           </div>
 
           <div className="pr-12">
-            <div className="inline-block px-3 py-1 rounded-full bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 text-[10px] font-bold uppercase tracking-widest mb-3">
-              {node.gender}
+            <div className="flex items-center gap-2 mb-3">
+              <div className="px-3 py-1 rounded-full bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 text-[10px] font-bold uppercase tracking-widest">
+                {node.gender}
+              </div>
+              <div className="px-3 py-1 rounded-full bg-emerald-100 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400 text-[10px] font-black uppercase tracking-widest">
+                Est. ${node.price.toFixed(0)}
+              </div>
             </div>
             <h2 className="text-4xl font-bold font-display text-slate-900 dark:text-white leading-tight tracking-tight">
               {node.name}
@@ -56,6 +62,30 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ node, onClose, darkMode }) =>
             <div className="p-4 bg-slate-50 dark:bg-slate-800/50 rounded-3xl border border-slate-100 dark:border-slate-800">
               <div className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">Launch</div>
               <div className="text-lg font-bold text-slate-700 dark:text-slate-200">{node.year || 'Unknown'}</div>
+            </div>
+          </div>
+
+          {/* Vibe & Usage */}
+          <div className="grid grid-cols-2 gap-6">
+            <div>
+              <h4 className="text-xs font-bold text-slate-900 dark:text-white uppercase tracking-widest mb-3 flex items-center gap-2">
+                <span>🗓️</span> Best Seasons
+              </h4>
+              <div className="flex flex-wrap gap-2">
+                {node.seasons.map(s => (
+                  <span key={s} className="px-3 py-1 bg-slate-100 dark:bg-slate-800 text-[11px] font-bold text-slate-600 dark:text-slate-300 rounded-lg">{s}</span>
+                ))}
+              </div>
+            </div>
+            <div>
+              <h4 className="text-xs font-bold text-slate-900 dark:text-white uppercase tracking-widest mb-3 flex items-center gap-2">
+                <span>💼</span> Occasions
+              </h4>
+              <div className="flex flex-wrap gap-2">
+                {node.occasions.map(o => (
+                  <span key={o} className="px-3 py-1 bg-slate-100 dark:bg-slate-800 text-[11px] font-bold text-slate-600 dark:text-slate-300 rounded-lg">{o}</span>
+                ))}
+              </div>
             </div>
           </div>
 
@@ -104,27 +134,24 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ node, onClose, darkMode }) =>
               </ul>
             </div>
           </div>
-
-          {/* Perfumers */}
-          {node.perfumers.length > 0 && (
-            <div className="pt-4 border-t border-slate-100 dark:border-slate-800">
-              <div className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-2">Creators</div>
-              <div className="text-sm text-slate-600 dark:text-slate-300 font-medium italic">
-                {node.perfumers.join(', ')}
-              </div>
-            </div>
-          )}
         </div>
 
         {/* Footer */}
-        <div className="p-8 pt-0 mt-auto">
+        <div className="p-8 pt-0 mt-auto flex gap-4">
+          <button
+            onClick={() => onSpotlight(node)}
+            className="flex-1 h-14 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-2xl flex items-center justify-center gap-3 transition-all hover:scale-[1.02] active:scale-95 shadow-lg shadow-blue-500/20"
+          >
+            <span>🔦</span>
+            Spotlight Mode
+          </button>
           <a
             href={node.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full h-14 bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-bold rounded-2xl flex items-center justify-center gap-3 hover:scale-[1.01] transition-transform shadow-2xl"
+            className="flex-1 h-14 bg-slate-900 dark:bg-slate-800 text-white font-bold rounded-2xl flex items-center justify-center gap-3 hover:scale-[1.02] transition-transform shadow-2xl"
           >
-            <span>View on Fragrantica</span>
+            <span>Fragrantica</span>
             <span className="text-xl">→</span>
           </a>
         </div>

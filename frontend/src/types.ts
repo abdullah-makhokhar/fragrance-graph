@@ -25,12 +25,15 @@ export interface Fragrance {
   base_notes: string[];
   perfumers: string[];
   cluster: string;
+  seasons: string[];
+  occasions: string[];
+  price: number;
   url: string;
 }
 
 export interface Link {
-  source: number | Fragrance;
-  target: number | Fragrance;
+  source: string | any;
+  target: string | any;
   weight: number;
   similarity: string;
 }
@@ -47,7 +50,10 @@ export interface GraphData {
       genders: string[];
       accords: string[];
       years: number[];
+      seasons: string[];
+      occasions: string[];
     };
+    generated_at: string;
   };
 }
 
@@ -55,8 +61,11 @@ export interface Filters {
   brands: Set<string>;
   genders: Set<string>;
   accords: Set<string>;
+  seasons: Set<string>;
+  occasions: Set<string>;
   minRating: number;
   maxRating: number;
+  priceRange: [number, number];
   years: Set<number>;
 }
 
@@ -64,7 +73,10 @@ export const DEFAULT_FILTERS: Filters = {
   brands: new Set(),
   genders: new Set(),
   accords: new Set(),
+  seasons: new Set(),
+  occasions: new Set(),
   minRating: 0,
   maxRating: 5,
+  priceRange: [0, 500],
   years: new Set(),
 };
