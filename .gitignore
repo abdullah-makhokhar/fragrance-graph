@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+/frontend/node_modules/
+.pnp
+.pnp.js
+
+# Testing
+/frontend/coverage
+
+# Misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.project
+.settings/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env/
+
+# AI Coding Agents (Antigravity/Gemini/Nanocoder)
+.gemini/
+AGENTS.md
+task.md
+implementation_plan.md
+walkthrough.md
+brain/
+scratch/
+.system_generated/
+knowledge/
+artifacts/
+overview.txt
+QUICKSTART.md
+ARCHITECTURE.md
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Workspace
+.DS_Store
+Thumbs.db
