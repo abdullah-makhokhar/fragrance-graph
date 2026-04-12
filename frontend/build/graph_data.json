@@ -1,0 +1,7641 @@
+{
+  "nodes": [
+    {
+      "id": "fragrance_0",
+      "index": 0,
+      "name": "alien",
+      "brand": "mugler",
+      "country": "France",
+      "gender": "women",
+      "rating": 4.0,
+      "rating_count": 29858,
+      "year": null,
+      "accords": [
+        "amber",
+        "floral",
+        "white floral"
+      ],
+      "top_notes": [
+        "jasmine sambac"
+      ],
+      "middle_notes": [
+        "cashmeran"
+      ],
+      "base_notes": [
+        "amber"
+      ],
+      "perfumers": [
+        "dominique ropion"
+      ],
+      "cluster": "floral",
+      "seasonal": "spring",
+      "url": "https://www.fragrantica.com/perfume/mugler/alien-707.html"
+    },
+    {
+      "id": "fragrance_1",
+      "index": 1,
+      "name": "angel",
+      "brand": "mugler",
+      "country": "France",
+      "gender": "women",
+      "rating": 3.57,
+      "rating_count": 29722,
+      "year": null,
+      "accords": [
+        "caramel",
+        "fruity",
+        "patchouli",
+        "sweet",
+        "warm spicy"
+      ],
+      "top_notes": [
+        "bergamot",
+        "cassis",
+        "coconut",
+        "cotton candy",
+        "jasmine",
+        "mandarin orange",
+        "melon",
+        "pineapple"
+      ],
+      "middle_notes": [
+        "apricot",
+        "blackberry",
+        "caraway",
+        "honey",
+        "jasmine",
+        "lily-of-the-valley",
+        "nutmeg",
+        "orchid",
+        "peach",
+        "plum",
+        "red berries",
+        "rose"
+      ],
+      "base_notes": [
+        "amber",
+        "caramel",
+        "chocolate",
+        "musk",
+        "patchouli",
+        "sandalwood",
+        "tonka bean",
+        "vanilla"
+      ],
+      "perfumers": [
+        "olivier cresp"
+      ],
+      "cluster": "warm spicy",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/mugler/angel-704.html"
+    },
+    {
+      "id": "fragrance_2",
+      "index": 2,
+      "name": "light-blue",
+      "brand": "dolce-gabbana",
+      "country": "Italy",
+      "gender": "women",
+      "rating": 3.84,
+      "rating_count": 29708,
+      "year": null,
+      "accords": [
+        "aromatic",
+        "citrus",
+        "fresh",
+        "fruity",
+        "woody"
+      ],
+      "top_notes": [
+        "apple",
+        "bellflower",
+        "cedar",
+        "sicilian lemon"
+      ],
+      "middle_notes": [
+        "bamboo",
+        "jasmine",
+        "white rose"
+      ],
+      "base_notes": [
+        "amber",
+        "cedar",
+        "musk"
+      ],
+      "perfumers": [
+        "olivier cresp"
+      ],
+      "cluster": "woody",
+      "seasonal": "summer",
+      "url": "https://www.fragrantica.com/perfume/dolce-gabbana/light-blue-485.html"
+    },
+    {
+      "id": "fragrance_3",
+      "index": 3,
+      "name": "coco-mademoiselle",
+      "brand": "chanel",
+      "country": "France",
+      "gender": "women",
+      "rating": 4.12,
+      "rating_count": 29283,
+      "year": null,
+      "accords": [
+        "citrus",
+        "patchouli",
+        "sweet",
+        "white floral",
+        "woody"
+      ],
+      "top_notes": [
+        "bergamot",
+        "mandarin orange",
+        "orange",
+        "orange blossom"
+      ],
+      "middle_notes": [
+        "jasmine",
+        "mimosa",
+        "turkish rose",
+        "ylang-ylang"
+      ],
+      "base_notes": [
+        "opoponax",
+        "patchouli",
+        "tonka bean",
+        "vanilla",
+        "vetiver",
+        "white musk"
+      ],
+      "perfumers": [
+        "jacques polge"
+      ],
+      "cluster": "woody",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/chanel/coco-mademoiselle-611.html"
+    },
+    {
+      "id": "fragrance_4",
+      "index": 4,
+      "name": "la-vie-est-belle",
+      "brand": "lancome",
+      "country": "France",
+      "gender": "women",
+      "rating": 3.64,
+      "rating_count": 28982,
+      "year": null,
+      "accords": [
+        "fruity",
+        "patchouli",
+        "sweet",
+        "vanilla",
+        "woody"
+      ],
+      "top_notes": [
+        "black currant",
+        "pear"
+      ],
+      "middle_notes": [
+        "iris",
+        "jasmine",
+        "orange blossom"
+      ],
+      "base_notes": [
+        "patchouli",
+        "praline",
+        "tonka bean",
+        "vanilla"
+      ],
+      "perfumers": [],
+      "cluster": "woody",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/lancome/la-vie-est-belle-14982.html"
+    },
+    {
+      "id": "fragrance_5",
+      "index": 5,
+      "name": "black-orchid",
+      "brand": "tom-ford",
+      "country": "USA",
+      "gender": "women",
+      "rating": 3.91,
+      "rating_count": 26053,
+      "year": null,
+      "accords": [
+        "amber",
+        "earthy",
+        "sweet",
+        "warm spicy",
+        "woody"
+      ],
+      "top_notes": [
+        "amalfi lemon",
+        "bergamot",
+        "black currant",
+        "gardenia",
+        "jasmine",
+        "mandarin orange",
+        "truffle",
+        "ylang-ylang"
+      ],
+      "middle_notes": [
+        "fruity notes",
+        "gardenia",
+        "jasmine",
+        "lotus",
+        "orchid",
+        "spices",
+        "ylang-ylang"
+      ],
+      "base_notes": [
+        "amber",
+        "incense",
+        "mexican chocolate",
+        "patchouli",
+        "sandalwood",
+        "vanille",
+        "vetiver",
+        "white musk"
+      ],
+      "perfumers": [
+        "david apel"
+      ],
+      "cluster": "amber",
+      "seasonal": "fall",
+      "url": "https://www.fragrantica.com/perfume/tom-ford/black-orchid-1018.html"
+    },
+    {
+      "id": "fragrance_6",
+      "index": 6,
+      "name": "black-opium",
+      "brand": "yves-saint-laurent",
+      "country": "France",
+      "gender": "women",
+      "rating": 3.93,
+      "rating_count": 25669,
+      "year": null,
+      "accords": [
+        "coffee",
+        "sweet",
+        "vanilla",
+        "warm spicy",
+        "white floral"
+      ],
+      "top_notes": [
+        "orange blossom",
+        "pear",
+        "pink pepper"
+      ],
+      "middle_notes": [
+        "bitter almond",
+        "coffee",
+        "jasmine",
+        "licorice"
+      ],
+      "base_notes": [
+        "cashmere wood",
+        "cedar",
+        "patchouli",
+        "vanilla"
+      ],
+      "perfumers": [],
+      "cluster": "white floral",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/yves-saint-laurent/black-opium-25324.html"
+    },
+    {
+      "id": "fragrance_7",
+      "index": 7,
+      "name": "hypnotic-poison",
+      "brand": "dior",
+      "country": "France",
+      "gender": "women",
+      "rating": 4.09,
+      "rating_count": 25173,
+      "year": null,
+      "accords": [
+        "almond",
+        "fruity",
+        "nutty",
+        "sweet",
+        "vanilla"
+      ],
+      "top_notes": [
+        "apricot",
+        "coconut",
+        "plum"
+      ],
+      "middle_notes": [
+        "brazilian rosewood",
+        "caraway",
+        "jasmine",
+        "lily-of-the-valley",
+        "rose",
+        "tuberose"
+      ],
+      "base_notes": [
+        "almond",
+        "musk",
+        "sandalwood",
+        "vanilla"
+      ],
+      "perfumers": [
+        "annick menardo"
+      ],
+      "cluster": "nutty",
+      "seasonal": "sweet",
+      "url": "https://www.fragrantica.com/perfume/dior/hypnotic-poison-219.html"
+    },
+    {
+      "id": "fragrance_8",
+      "index": 8,
+      "name": "j-adore",
+      "brand": "dior",
+      "country": "France",
+      "gender": "women",
+      "rating": 3.78,
+      "rating_count": 25013,
+      "year": null,
+      "accords": [
+        "floral",
+        "fresh",
+        "fruity",
+        "sweet",
+        "white floral"
+      ],
+      "top_notes": [
+        "bergamot",
+        "magnolia",
+        "mandarin orange",
+        "melon",
+        "peach",
+        "pear"
+      ],
+      "middle_notes": [
+        "freesia",
+        "jasmine",
+        "lily-of-the-valley",
+        "orchid",
+        "plum",
+        "rose",
+        "tuberose",
+        "violet"
+      ],
+      "base_notes": [
+        "blackberry",
+        "cedar",
+        "musk",
+        "vanilla"
+      ],
+      "perfumers": [
+        "calice becker"
+      ],
+      "cluster": "white floral",
+      "seasonal": "spring",
+      "url": "https://www.fragrantica.com/perfume/dior/j-adore-210.html"
+    },
+    {
+      "id": "fragrance_9",
+      "index": 9,
+      "name": "sauvage",
+      "brand": "dior",
+      "country": "France",
+      "gender": "men",
+      "rating": 3.88,
+      "rating_count": 23727,
+      "year": null,
+      "accords": [
+        "amber",
+        "aromatic",
+        "citrus",
+        "fresh spicy",
+        "musky"
+      ],
+      "top_notes": [
+        "calabrian bergamot",
+        "pepper"
+      ],
+      "middle_notes": [
+        "elemi",
+        "geranium",
+        "lavender",
+        "patchouli",
+        "pink pepper",
+        "sichuan pepper",
+        "vetiver"
+      ],
+      "base_notes": [
+        "ambroxan",
+        "cedar",
+        "labdanum"
+      ],
+      "perfumers": [
+        "françois demachy"
+      ],
+      "cluster": "fresh spicy",
+      "seasonal": "fresh",
+      "url": "https://www.fragrantica.com/perfume/dior/sauvage-31861.html"
+    },
+    {
+      "id": "fragrance_10",
+      "index": 10,
+      "name": "tobacco-vanille",
+      "brand": "tom-ford",
+      "country": "USA",
+      "gender": "unisex",
+      "rating": 4.23,
+      "rating_count": 22332,
+      "year": null,
+      "accords": [
+        "fruity",
+        "sweet",
+        "tobacco",
+        "vanilla",
+        "warm spicy"
+      ],
+      "top_notes": [
+        "spicy notes",
+        "tobacco leaf"
+      ],
+      "middle_notes": [
+        "cacao",
+        "tobacco blossom",
+        "tonka bean",
+        "vanilla"
+      ],
+      "base_notes": [
+        "dried fruits",
+        "woody notes"
+      ],
+      "perfumers": [
+        "olivier gillotin"
+      ],
+      "cluster": "tobacco",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/tom-ford/tobacco-vanille-1825.html"
+    },
+    {
+      "id": "fragrance_11",
+      "index": 11,
+      "name": "terre-d-hermes",
+      "brand": "hermes",
+      "country": "France",
+      "gender": "men",
+      "rating": 4.28,
+      "rating_count": 21347,
+      "year": null,
+      "accords": [
+        "aromatic",
+        "citrus",
+        "earthy",
+        "fresh spicy",
+        "woody"
+      ],
+      "top_notes": [
+        "grapefruit",
+        "orange"
+      ],
+      "middle_notes": [
+        "flint",
+        "pelargonium",
+        "pepper"
+      ],
+      "base_notes": [
+        "benzoin",
+        "cedar",
+        "patchouli",
+        "vetiver"
+      ],
+      "perfumers": [
+        "jean-claude ellena"
+      ],
+      "cluster": "fresh spicy",
+      "seasonal": "fall",
+      "url": "https://www.fragrantica.com/perfume/hermes/terre-d-hermes-17.html"
+    },
+    {
+      "id": "fragrance_12",
+      "index": 12,
+      "name": "crystal-noir",
+      "brand": "versace",
+      "country": "Italy",
+      "gender": "women",
+      "rating": 3.92,
+      "rating_count": 21063,
+      "year": null,
+      "accords": [
+        "coconut",
+        "fresh spicy",
+        "lactonic",
+        "warm spicy",
+        "white floral"
+      ],
+      "top_notes": [
+        "cardamom",
+        "ginger",
+        "pepper"
+      ],
+      "middle_notes": [
+        "coconut",
+        "gardenia",
+        "orange blossom",
+        "peony"
+      ],
+      "base_notes": [
+        "amber",
+        "musk",
+        "sandalwood"
+      ],
+      "perfumers": [
+        "antoine lie"
+      ],
+      "cluster": "fresh spicy",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/versace/crystal-noir-631.html"
+    },
+    {
+      "id": "fragrance_13",
+      "index": 13,
+      "name": "eros",
+      "brand": "versace",
+      "country": "Italy",
+      "gender": "men",
+      "rating": 4.08,
+      "rating_count": 20788,
+      "year": null,
+      "accords": [
+        "amber",
+        "aromatic",
+        "fresh spicy",
+        "green",
+        "vanilla"
+      ],
+      "top_notes": [
+        "green apple",
+        "lemon",
+        "mint"
+      ],
+      "middle_notes": [
+        "ambroxan",
+        "geranium",
+        "tonka bean"
+      ],
+      "base_notes": [
+        "atlas cedar",
+        "madagascar vanilla",
+        "oakmoss",
+        "vetiver",
+        "virginian cedar"
+      ],
+      "perfumers": [
+        "aure?lien guichard"
+      ],
+      "cluster": "fresh spicy",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/versace/eros-16657.html"
+    },
+    {
+      "id": "fragrance_14",
+      "index": 14,
+      "name": "euphoria",
+      "brand": "calvin-klein",
+      "country": "USA",
+      "gender": "women",
+      "rating": 3.83,
+      "rating_count": 20735,
+      "year": null,
+      "accords": [
+        "amber",
+        "floral",
+        "powdery",
+        "sweet",
+        "woody"
+      ],
+      "top_notes": [
+        "green accord",
+        "persimmon",
+        "pomegranate"
+      ],
+      "middle_notes": [
+        "black orchid",
+        "champaca",
+        "lotus"
+      ],
+      "base_notes": [
+        "amber",
+        "black violet",
+        "mahogany",
+        "whipped cream"
+      ],
+      "perfumers": [],
+      "cluster": "amber",
+      "seasonal": "fall",
+      "url": "https://www.fragrantica.com/perfume/calvin-klein/euphoria-253.html"
+    },
+    {
+      "id": "fragrance_15",
+      "index": 15,
+      "name": "baccarat-rouge-540",
+      "brand": "maison-francis-kurkdjian",
+      "country": "France",
+      "gender": "unisex",
+      "rating": 3.86,
+      "rating_count": 20435,
+      "year": null,
+      "accords": [
+        "amber",
+        "aromatic",
+        "fresh spicy",
+        "warm spicy",
+        "woody"
+      ],
+      "top_notes": [
+        "jasmine",
+        "saffron"
+      ],
+      "middle_notes": [
+        "ambergris",
+        "amberwood"
+      ],
+      "base_notes": [
+        "cedar",
+        "fir resin"
+      ],
+      "perfumers": [
+        "francis kurkdjian"
+      ],
+      "cluster": "amber",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/maison-francis-kurkdjian/baccarat-rouge-540-33519.html"
+    },
+    {
+      "id": "fragrance_16",
+      "index": 16,
+      "name": "bright-crystal",
+      "brand": "versace",
+      "country": "Italy",
+      "gender": "women",
+      "rating": 3.73,
+      "rating_count": 20348,
+      "year": null,
+      "accords": [
+        "citrus",
+        "floral",
+        "fresh",
+        "fresh spicy",
+        "woody"
+      ],
+      "top_notes": [
+        "ice",
+        "pomegranate",
+        "yuzu"
+      ],
+      "middle_notes": [
+        "lotus",
+        "magnolia",
+        "peony"
+      ],
+      "base_notes": [
+        "amber",
+        "mahogany",
+        "musk"
+      ],
+      "perfumers": [
+        "alberto morillas"
+      ],
+      "cluster": "fresh spicy",
+      "seasonal": "summer",
+      "url": "https://www.fragrantica.com/perfume/versace/bright-crystal-632.html"
+    },
+    {
+      "id": "fragrance_17",
+      "index": 17,
+      "name": "chloe-eau-de-parfum",
+      "brand": "chloe",
+      "country": "France",
+      "gender": "women",
+      "rating": 3.95,
+      "rating_count": 19739,
+      "year": null,
+      "accords": [
+        "floral",
+        "fresh",
+        "fruity",
+        "rose",
+        "white floral"
+      ],
+      "top_notes": [
+        "freesia",
+        "litchi",
+        "peony"
+      ],
+      "middle_notes": [
+        "lily-of-the-valley",
+        "magnolia",
+        "rose"
+      ],
+      "base_notes": [
+        "amber",
+        "virginia cedar"
+      ],
+      "perfumers": [
+        "amandine clerc-marie"
+      ],
+      "cluster": "white floral",
+      "seasonal": "spring",
+      "url": "https://www.fragrantica.com/perfume/chloe/chloe-eau-de-parfum-1733.html"
+    },
+    {
+      "id": "fragrance_18",
+      "index": 18,
+      "name": "aventus",
+      "brand": "creed",
+      "country": "France",
+      "gender": "men",
+      "rating": 4.34,
+      "rating_count": 19581,
+      "year": null,
+      "accords": [
+        "fruity",
+        "leather",
+        "smoky",
+        "sweet",
+        "woody"
+      ],
+      "top_notes": [
+        "apple",
+        "bergamot",
+        "black currant",
+        "lemon",
+        "pink pepper"
+      ],
+      "middle_notes": [
+        "moroccan jasmine",
+        "patchouli",
+        "pineapple"
+      ],
+      "base_notes": [
+        "ambroxan",
+        "birch",
+        "cedarwood",
+        "musk",
+        "oak moss"
+      ],
+      "perfumers": [
+        "erwin creed"
+      ],
+      "cluster": "smoky",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/creed/aventus-9828.html"
+    },
+    {
+      "id": "fragrance_19",
+      "index": 19,
+      "name": "la-nuit-de-l-homme",
+      "brand": "yves-saint-laurent",
+      "country": "France",
+      "gender": "men",
+      "rating": 4.44,
+      "rating_count": 19533,
+      "year": null,
+      "accords": [
+        "aromatic",
+        "fresh spicy",
+        "lavender",
+        "warm spicy",
+        "woody"
+      ],
+      "top_notes": [
+        "cardamom"
+      ],
+      "middle_notes": [
+        "bergamot",
+        "lavender",
+        "virginia cedar"
+      ],
+      "base_notes": [
+        "caraway",
+        "vetiver"
+      ],
+      "perfumers": [],
+      "cluster": "fresh spicy",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/yves-saint-laurent/la-nuit-de-l-homme-5521.html"
+    },
+    {
+      "id": "fragrance_20",
+      "index": 20,
+      "name": "encre-noire",
+      "brand": "lalique",
+      "country": "France",
+      "gender": "men",
+      "rating": 4.18,
+      "rating_count": 19165,
+      "year": null,
+      "accords": [
+        "aromatic",
+        "earthy",
+        "musky",
+        "woody"
+      ],
+      "top_notes": [
+        "cypress"
+      ],
+      "middle_notes": [
+        "vetiver"
+      ],
+      "base_notes": [
+        "cashmere wood",
+        "musk"
+      ],
+      "perfumers": [
+        "nathalie lorson"
+      ],
+      "cluster": "earthy",
+      "seasonal": "fall",
+      "url": "https://www.fragrantica.com/perfume/lalique/encre-noire-1834.html"
+    },
+    {
+      "id": "fragrance_21",
+      "index": 21,
+      "name": "1-million",
+      "brand": "paco-rabanne",
+      "country": "Spain",
+      "gender": "men",
+      "rating": 3.73,
+      "rating_count": 19107,
+      "year": null,
+      "accords": [
+        "amber",
+        "cinnamon",
+        "citrus",
+        "warm spicy",
+        "woody"
+      ],
+      "top_notes": [
+        "blood mandarin",
+        "grapefruit",
+        "mint"
+      ],
+      "middle_notes": [
+        "cinnamon",
+        "rose",
+        "spicy notes"
+      ],
+      "base_notes": [
+        "amber",
+        "indian patchouli",
+        "leather",
+        "woody notes"
+      ],
+      "perfumers": [],
+      "cluster": "amber",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/paco-rabanne/1-million-3747.html"
+    },
+    {
+      "id": "fragrance_22",
+      "index": 22,
+      "name": "acqua-di-gio",
+      "brand": "giorgio-armani",
+      "country": "Italy",
+      "gender": "men",
+      "rating": 4.11,
+      "rating_count": 18937,
+      "year": null,
+      "accords": [
+        "aromatic",
+        "citrus",
+        "floral",
+        "fresh spicy",
+        "marine"
+      ],
+      "top_notes": [
+        "bergamot",
+        "jasmine",
+        "lemon",
+        "lime",
+        "mandarin orange",
+        "neroli",
+        "orange"
+      ],
+      "middle_notes": [
+        "calone",
+        "coriander",
+        "cyclamen",
+        "freesia",
+        "hiacynth",
+        "jasmine",
+        "mignonette",
+        "nutmeg",
+        "peach",
+        "rose",
+        "rosemary",
+        "sea notes",
+        "violet"
+      ],
+      "base_notes": [
+        "amber",
+        "cedar",
+        "oakmoss",
+        "patchouli",
+        "white musk"
+      ],
+      "perfumers": [],
+      "cluster": "fresh spicy",
+      "seasonal": "fresh",
+      "url": "https://www.fragrantica.com/perfume/giorgio-armani/acqua-di-gio-410.html"
+    },
+    {
+      "id": "fragrance_23",
+      "index": 23,
+      "name": "le-male",
+      "brand": "jean-paul-gaultier",
+      "country": "France",
+      "gender": "men",
+      "rating": 4.01,
+      "rating_count": 18841,
+      "year": null,
+      "accords": [
+        "aromatic",
+        "fresh spicy",
+        "lavender",
+        "vanilla",
+        "warm spicy"
+      ],
+      "top_notes": [
+        "artemisia",
+        "bergamot",
+        "cardamom",
+        "lavender",
+        "mint"
+      ],
+      "middle_notes": [
+        "caraway",
+        "cinnamon",
+        "orange blossom"
+      ],
+      "base_notes": [
+        "amber",
+        "cedar",
+        "sandalwood",
+        "tonka bean",
+        "vanilla"
+      ],
+      "perfumers": [
+        "francis kurkdjian"
+      ],
+      "cluster": "fresh spicy",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/jean-paul-gaultier/le-male-430.html"
+    },
+    {
+      "id": "fragrance_24",
+      "index": 24,
+      "name": "fahrenheit",
+      "brand": "dior",
+      "country": "France",
+      "gender": "men",
+      "rating": 4.03,
+      "rating_count": 18355,
+      "year": null,
+      "accords": [
+        "animalic",
+        "fresh spicy",
+        "leather",
+        "ozonic",
+        "woody"
+      ],
+      "top_notes": [
+        "bergamot",
+        "cedar",
+        "chamomile",
+        "hawthorn",
+        "lavender",
+        "lemon",
+        "mandarin orange",
+        "nutmeg flower"
+      ],
+      "middle_notes": [
+        "carnation",
+        "cedar",
+        "honeysuckle",
+        "jasmine",
+        "lily-of-the-valley",
+        "nutmeg",
+        "sandalwood",
+        "violet leaf"
+      ],
+      "base_notes": [
+        "amber",
+        "leather",
+        "musk",
+        "patchouli",
+        "tonka bean",
+        "vetiver"
+      ],
+      "perfumers": [],
+      "cluster": "fresh spicy",
+      "seasonal": "intense",
+      "url": "https://www.fragrantica.com/perfume/dior/fahrenheit-228.html"
+    },
+    {
+      "id": "fragrance_25",
+      "index": 25,
+      "name": "dior-homme-intense-2011",
+      "brand": "dior",
+      "country": "France",
+      "gender": "men",
+      "rating": 4.5,
+      "rating_count": 18272,
+      "year": null,
+      "accords": [
+        "earthy",
+        "iris",
+        "powdery",
+        "violet",
+        "woody"
+      ],
+      "top_notes": [
+        "lavender"
+      ],
+      "middle_notes": [
+        "ambrette (musk mallow)",
+        "iris",
+        "pear"
+      ],
+      "base_notes": [
+        "vetiver",
+        "virginia cedar"
+      ],
+      "perfumers": [
+        "françois demachy"
+      ],
+      "cluster": "violet",
+      "seasonal": "fall",
+      "url": "https://www.fragrantica.com/perfume/dior/dior-homme-intense-2011-13016.html"
+    },
+    {
+      "id": "fragrance_26",
+      "index": 26,
+      "name": "flowerbomb",
+      "brand": "viktor-rolf",
+      "country": "Netherlands",
+      "gender": "women",
+      "rating": 3.92,
+      "rating_count": 17964,
+      "year": null,
+      "accords": [
+        "citrus",
+        "floral",
+        "patchouli",
+        "white floral",
+        "woody"
+      ],
+      "top_notes": [
+        "bergamot",
+        "osmanthus",
+        "tea"
+      ],
+      "middle_notes": [
+        "african orange flower",
+        "freesia",
+        "jasmine",
+        "orchid",
+        "rose"
+      ],
+      "base_notes": [
+        "musk",
+        "patchouli",
+        "vanilla"
+      ],
+      "perfumers": [],
+      "cluster": "white floral",
+      "seasonal": "spring",
+      "url": "https://www.fragrantica.com/perfume/viktor-rolf/flowerbomb-1460.html"
+    },
+    {
+      "id": "fragrance_27",
+      "index": 27,
+      "name": "narciso-rodriguez-for-her",
+      "brand": "narciso-rodriguez",
+      "country": "USA",
+      "gender": "women",
+      "rating": 4.02,
+      "rating_count": 17811,
+      "year": null,
+      "accords": [
+        "citrus",
+        "floral",
+        "musky",
+        "powdery",
+        "white floral"
+      ],
+      "top_notes": [
+        "african orange flower",
+        "bergamot",
+        "osmanthus"
+      ],
+      "middle_notes": [
+        "amber",
+        "musk"
+      ],
+      "base_notes": [
+        "patchouli",
+        "vanille",
+        "vetiver"
+      ],
+      "perfumers": [
+        "christine nagel"
+      ],
+      "cluster": "musky",
+      "seasonal": "spring",
+      "url": "https://www.fragrantica.com/perfume/narciso-rodriguez/narciso-rodriguez-for-her-209.html"
+    },
+    {
+      "id": "fragrance_28",
+      "index": 28,
+      "name": "bleu-de-chanel",
+      "brand": "chanel",
+      "country": "France",
+      "gender": "men",
+      "rating": 4.17,
+      "rating_count": 17669,
+      "year": null,
+      "accords": [
+        "amber",
+        "aromatic",
+        "citrus",
+        "warm spicy",
+        "woody"
+      ],
+      "top_notes": [
+        "grapefruit",
+        "lemon",
+        "mint",
+        "pink pepper"
+      ],
+      "middle_notes": [
+        "ginger",
+        "iso e super",
+        "jasmine",
+        "nutmeg"
+      ],
+      "base_notes": [
+        "cedar",
+        "incense",
+        "labdanum",
+        "patchouli",
+        "sandalwood",
+        "vetiver",
+        "white musk"
+      ],
+      "perfumers": [
+        "jacques polge"
+      ],
+      "cluster": "amber",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/chanel/bleu-de-chanel-9099.html"
+    },
+    {
+      "id": "fragrance_29",
+      "index": 29,
+      "name": "good-girl",
+      "brand": "carolina-herrera",
+      "country": "USA",
+      "gender": "women",
+      "rating": 3.91,
+      "rating_count": 17361,
+      "year": null,
+      "accords": [
+        "cacao",
+        "sweet",
+        "vanilla",
+        "warm spicy",
+        "white floral"
+      ],
+      "top_notes": [
+        "almond",
+        "bergamot",
+        "coffee",
+        "lemon"
+      ],
+      "middle_notes": [
+        "bulgarian rose",
+        "jasmine sambac",
+        "orange blossom",
+        "orris",
+        "tuberose"
+      ],
+      "base_notes": [
+        "amber",
+        "cacao",
+        "cashmere wood",
+        "cedar",
+        "cinnamon",
+        "musk",
+        "patchouli",
+        "praline",
+        "sandalwood",
+        "tonka bean",
+        "vanilla"
+      ],
+      "perfumers": [
+        "louise turner"
+      ],
+      "cluster": "white floral",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/carolina-herrera/good-girl-39681.html"
+    },
+    {
+      "id": "fragrance_30",
+      "index": 30,
+      "name": "d-g-anthology-l-imperatrice-3",
+      "brand": "dolce-gabbana",
+      "country": "Italy",
+      "gender": "women",
+      "rating": 3.81,
+      "rating_count": 17132,
+      "year": null,
+      "accords": [
+        "aquatic",
+        "fruity",
+        "green",
+        "ozonic",
+        "sweet"
+      ],
+      "top_notes": [
+        "kiwi",
+        "pink pepper",
+        "rhuburb"
+      ],
+      "middle_notes": [
+        "cyclamen",
+        "jasmine",
+        "watermelon"
+      ],
+      "base_notes": [
+        "lemon tree",
+        "musk",
+        "sandalwood"
+      ],
+      "perfumers": [],
+      "cluster": "green",
+      "seasonal": "summer",
+      "url": "https://www.fragrantica.com/perfume/dolce-gabbana/d-g-anthology-l-imperatrice-3-6086.html"
+    },
+    {
+      "id": "fragrance_31",
+      "index": 31,
+      "name": "si",
+      "brand": "giorgio-armani",
+      "country": "Italy",
+      "gender": "women",
+      "rating": 3.82,
+      "rating_count": 17074,
+      "year": null,
+      "accords": [
+        "aromatic",
+        "fruity",
+        "soft spicy",
+        "vanilla",
+        "woody"
+      ],
+      "top_notes": [
+        "cassis"
+      ],
+      "middle_notes": [
+        "freesia",
+        "may rose"
+      ],
+      "base_notes": [
+        "ambroxan",
+        "patchouli",
+        "vanilla",
+        "woody notes"
+      ],
+      "perfumers": [
+        "christine nagel"
+      ],
+      "cluster": "soft spicy",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/giorgio-armani/si-18453.html"
+    },
+    {
+      "id": "fragrance_32",
+      "index": 32,
+      "name": "chance-eau-tendre",
+      "brand": "chanel",
+      "country": "France",
+      "gender": "women",
+      "rating": 4.12,
+      "rating_count": 17053,
+      "year": null,
+      "accords": [
+        "citrus",
+        "floral",
+        "fresh spicy",
+        "fruity",
+        "sweet"
+      ],
+      "top_notes": [
+        "grapefruit",
+        "quince"
+      ],
+      "middle_notes": [
+        "hyacinth",
+        "jasmine"
+      ],
+      "base_notes": [
+        "amber",
+        "iris",
+        "musk",
+        "virginia cedar"
+      ],
+      "perfumers": [
+        "jacques polge"
+      ],
+      "cluster": "fresh spicy",
+      "seasonal": "summer",
+      "url": "https://www.fragrantica.com/perfume/chanel/chance-eau-tendre-8069.html"
+    },
+    {
+      "id": "fragrance_33",
+      "index": 33,
+      "name": "ck-one",
+      "brand": "calvin-klein",
+      "country": "USA",
+      "gender": "unisex",
+      "rating": 3.82,
+      "rating_count": 16829,
+      "year": null,
+      "accords": [
+        "citrus",
+        "green",
+        "powdery",
+        "white floral",
+        "woody"
+      ],
+      "top_notes": [
+        "bergamot",
+        "cardamom",
+        "green notes",
+        "lemon",
+        "mandarin orange",
+        "papaya",
+        "pineapple"
+      ],
+      "middle_notes": [
+        "freesia",
+        "jasmine",
+        "lily-of-the-valley",
+        "nutmeg",
+        "orris root",
+        "rose",
+        "violet"
+      ],
+      "base_notes": [
+        "amber",
+        "cedar",
+        "green accord",
+        "green tea",
+        "musk",
+        "oakmoss",
+        "sandalwood"
+      ],
+      "perfumers": [
+        "alberto morillas"
+      ],
+      "cluster": "green",
+      "seasonal": "spring",
+      "url": "https://www.fragrantica.com/perfume/calvin-klein/ck-one-276.html"
+    },
+    {
+      "id": "fragrance_34",
+      "index": 34,
+      "name": "club-de-nuit-intense-man",
+      "brand": "armaf",
+      "country": "UAE",
+      "gender": "men",
+      "rating": 4.16,
+      "rating_count": 16740,
+      "year": null,
+      "accords": [
+        "citrus",
+        "fruity",
+        "leather",
+        "smoky",
+        "woody"
+      ],
+      "top_notes": [
+        "apple",
+        "bergamot",
+        "black currant",
+        "lemon",
+        "pineapple"
+      ],
+      "middle_notes": [
+        "birch",
+        "jasmine",
+        "rose"
+      ],
+      "base_notes": [
+        "ambergris",
+        "musk",
+        "patchouli",
+        "vanilla"
+      ],
+      "perfumers": [],
+      "cluster": "smoky",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/armaf/club-de-nuit-intense-man-34696.html"
+    },
+    {
+      "id": "fragrance_35",
+      "index": 35,
+      "name": "shalimar-eau-de-parfum",
+      "brand": "guerlain",
+      "country": "France",
+      "gender": "women",
+      "rating": 4.0,
+      "rating_count": 16654,
+      "year": null,
+      "accords": [
+        "amber",
+        "balsamic",
+        "citrus",
+        "vanilla",
+        "woody"
+      ],
+      "top_notes": [
+        "bergamot",
+        "cedar",
+        "citruses",
+        "lemon",
+        "mandarin orange"
+      ],
+      "middle_notes": [
+        "iris",
+        "jasmine",
+        "patchouli",
+        "rose",
+        "vetiver"
+      ],
+      "base_notes": [
+        "civet",
+        "incense",
+        "leather",
+        "musk",
+        "opoponax",
+        "sandalwood",
+        "tonka bean",
+        "vanilla"
+      ],
+      "perfumers": [
+        "jacques guerlain"
+      ],
+      "cluster": "amber",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/guerlain/shalimar-eau-de-parfum-53.html"
+    },
+    {
+      "id": "fragrance_36",
+      "index": 36,
+      "name": "versace-pour-homme",
+      "brand": "versace",
+      "country": "Italy",
+      "gender": "men",
+      "rating": 4.29,
+      "rating_count": 16436,
+      "year": null,
+      "accords": [
+        "aromatic",
+        "citrus",
+        "floral",
+        "fresh spicy",
+        "rose"
+      ],
+      "top_notes": [
+        "bergamot",
+        "lemon",
+        "neroli",
+        "rose de mai"
+      ],
+      "middle_notes": [
+        "cedar",
+        "clary sage",
+        "geranium",
+        "hyacinth"
+      ],
+      "base_notes": [
+        "amber",
+        "musk",
+        "tonka bean"
+      ],
+      "perfumers": [
+        "alberto morillas"
+      ],
+      "cluster": "fresh spicy",
+      "seasonal": "fresh",
+      "url": "https://www.fragrantica.com/perfume/versace/versace-pour-homme-2318.html"
+    },
+    {
+      "id": "fragrance_37",
+      "index": 37,
+      "name": "versace-pour-homme-dylan-blue",
+      "brand": "versace",
+      "country": "Italy",
+      "gender": "men",
+      "rating": 4.15,
+      "rating_count": 15936,
+      "year": null,
+      "accords": [
+        "amber",
+        "aquatic",
+        "citrus",
+        "fresh spicy",
+        "musky"
+      ],
+      "top_notes": [
+        "calabrian bergamot",
+        "fig leaf",
+        "grapefruit",
+        "water notes"
+      ],
+      "middle_notes": [
+        "ambroxan",
+        "black pepper",
+        "papyrus",
+        "patchouli",
+        "violet leaf"
+      ],
+      "base_notes": [
+        "incense",
+        "musk",
+        "saffron",
+        "tonka bean"
+      ],
+      "perfumers": [
+        "alberto morillas"
+      ],
+      "cluster": "amber",
+      "seasonal": "summer",
+      "url": "https://www.fragrantica.com/perfume/versace/versace-pour-homme-dylan-blue-40031.html"
+    },
+    {
+      "id": "fragrance_38",
+      "index": 38,
+      "name": "pure-poison",
+      "brand": "dior",
+      "country": "France",
+      "gender": "women",
+      "rating": 4.04,
+      "rating_count": 15676,
+      "year": null,
+      "accords": [
+        "citrus",
+        "white floral",
+        "woody"
+      ],
+      "top_notes": [
+        "bergamot",
+        "jasmine",
+        "orange",
+        "sicilian mandarin"
+      ],
+      "middle_notes": [
+        "gardenia",
+        "orange blossom"
+      ],
+      "base_notes": [
+        "cedar",
+        "sandalwood",
+        "white amber",
+        "white musk"
+      ],
+      "perfumers": [],
+      "cluster": "white floral",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/dior/pure-poison-214.html"
+    },
+    {
+      "id": "fragrance_39",
+      "index": 39,
+      "name": "the-one",
+      "brand": "dolce-gabbana",
+      "country": "Italy",
+      "gender": "women",
+      "rating": 3.84,
+      "rating_count": 15640,
+      "year": null,
+      "accords": [
+        "fruity",
+        "powdery",
+        "sweet",
+        "vanilla",
+        "white floral"
+      ],
+      "top_notes": [
+        "bergamot",
+        "litchi",
+        "mandarin orange",
+        "peach"
+      ],
+      "middle_notes": [
+        "jasmine",
+        "lily",
+        "lily-of-the-valley",
+        "plum"
+      ],
+      "base_notes": [
+        "amber",
+        "musk",
+        "vanilla",
+        "vetiver"
+      ],
+      "perfumers": [
+        "christine nagel"
+      ],
+      "cluster": "white floral",
+      "seasonal": "sweet",
+      "url": "https://www.fragrantica.com/perfume/dolce-gabbana/the-one-698.html"
+    },
+    {
+      "id": "fragrance_40",
+      "index": 40,
+      "name": "lolita-lempicka",
+      "brand": "lolita-lempicka",
+      "country": "France",
+      "gender": "women",
+      "rating": 3.96,
+      "rating_count": 15327,
+      "year": null,
+      "accords": [
+        "anis",
+        "powdery",
+        "soft spicy",
+        "sweet",
+        "violet"
+      ],
+      "top_notes": [
+        "ivy",
+        "star anise",
+        "violet"
+      ],
+      "middle_notes": [
+        "amaryllis",
+        "cherry",
+        "iris",
+        "licorice",
+        "orris root"
+      ],
+      "base_notes": [
+        "praline",
+        "tonka bean",
+        "vanilla",
+        "vetiver",
+        "white musk"
+      ],
+      "perfumers": [
+        "annick menardo"
+      ],
+      "cluster": "soft spicy",
+      "seasonal": "sweet",
+      "url": "https://www.fragrantica.com/perfume/lolita-lempicka/lolita-lempicka-456.html"
+    },
+    {
+      "id": "fragrance_41",
+      "index": 41,
+      "name": "by-the-fireplace",
+      "brand": "maison-martin-margiela",
+      "country": "France",
+      "gender": "unisex",
+      "rating": 4.24,
+      "rating_count": 15275,
+      "year": null,
+      "accords": [
+        "amber",
+        "balsamic",
+        "vanilla",
+        "warm spicy",
+        "woody"
+      ],
+      "top_notes": [
+        "cloves",
+        "orange blossom",
+        "pink pepper"
+      ],
+      "middle_notes": [
+        "chestnut",
+        "guaiac wood",
+        "juniper"
+      ],
+      "base_notes": [
+        "cashmeran",
+        "peru balsam",
+        "vanilla"
+      ],
+      "perfumers": [
+        "marie salamagne"
+      ],
+      "cluster": "amber",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/maison-martin-margiela/by-the-fireplace-31623.html"
+    },
+    {
+      "id": "fragrance_42",
+      "index": 42,
+      "name": "cool-water",
+      "brand": "davidoff",
+      "country": "Switzerland",
+      "gender": "men",
+      "rating": 3.88,
+      "rating_count": 15239,
+      "year": null,
+      "accords": [
+        "aromatic",
+        "fresh spicy",
+        "green",
+        "lavender",
+        "marine"
+      ],
+      "top_notes": [
+        "calone",
+        "coriander",
+        "green notes",
+        "lavender",
+        "mint",
+        "rosemary",
+        "sea water"
+      ],
+      "middle_notes": [
+        "geranium",
+        "jasmine",
+        "neroli",
+        "sandalwood"
+      ],
+      "base_notes": [
+        "ambergris",
+        "cedar",
+        "musk",
+        "oakmoss",
+        "tobacco"
+      ],
+      "perfumers": [
+        "pierre bourdon"
+      ],
+      "cluster": "fresh spicy",
+      "seasonal": "fresh",
+      "url": "https://www.fragrantica.com/perfume/davidoff/cool-water-507.html"
+    },
+    {
+      "id": "fragrance_43",
+      "index": 43,
+      "name": "prada-candy",
+      "brand": "prada",
+      "country": "Italy",
+      "gender": "women",
+      "rating": 3.77,
+      "rating_count": 15060,
+      "year": null,
+      "accords": [
+        "amber",
+        "caramel",
+        "powdery",
+        "sweet",
+        "vanilla"
+      ],
+      "top_notes": [
+        "caramel"
+      ],
+      "middle_notes": [
+        "musk",
+        "powdery notes"
+      ],
+      "base_notes": [
+        "benzoin",
+        "vanilla"
+      ],
+      "perfumers": [
+        "daniela (roche) andrier"
+      ],
+      "cluster": "amber",
+      "seasonal": "sweet",
+      "url": "https://www.fragrantica.com/perfume/prada/prada-candy-12426.html"
+    },
+    {
+      "id": "fragrance_44",
+      "index": 44,
+      "name": "y-eau-de-parfum",
+      "brand": "yves-saint-laurent",
+      "country": "France",
+      "gender": "men",
+      "rating": 4.38,
+      "rating_count": 15024,
+      "year": null,
+      "accords": [
+        "amber",
+        "aromatic",
+        "fresh spicy",
+        "warm spicy",
+        "woody"
+      ],
+      "top_notes": [
+        "apple",
+        "bergamot",
+        "ginger"
+      ],
+      "middle_notes": [
+        "geranium",
+        "juniper berries",
+        "sage"
+      ],
+      "base_notes": [
+        "amberwood",
+        "cedar",
+        "olibanum",
+        "tonka bean",
+        "vetiver"
+      ],
+      "perfumers": [
+        "dominique ropion"
+      ],
+      "cluster": "fresh spicy",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/yves-saint-laurent/y-eau-de-parfum-50757.html"
+    },
+    {
+      "id": "fragrance_45",
+      "index": 45,
+      "name": "dkny-be-delicious",
+      "brand": "donna-karan",
+      "country": "USA",
+      "gender": "women",
+      "rating": 3.6,
+      "rating_count": 14952,
+      "year": null,
+      "accords": [
+        "aquatic",
+        "fresh",
+        "fruity",
+        "green",
+        "ozonic"
+      ],
+      "top_notes": [
+        "cucumber",
+        "grapefruit",
+        "magnolia"
+      ],
+      "middle_notes": [
+        "green apple",
+        "lily-of-the-valley",
+        "rose",
+        "tuberose",
+        "violet"
+      ],
+      "base_notes": [
+        "amber",
+        "sandalwood",
+        "woodsy notes"
+      ],
+      "perfumers": [
+        "maurice roucel"
+      ],
+      "cluster": "green",
+      "seasonal": "summer",
+      "url": "https://www.fragrantica.com/perfume/donna-karan/dkny-be-delicious-498.html"
+    },
+    {
+      "id": "fragrance_46",
+      "index": 46,
+      "name": "poison",
+      "brand": "dior",
+      "country": "France",
+      "gender": "women",
+      "rating": 3.94,
+      "rating_count": 14700,
+      "year": null,
+      "accords": [
+        "amber",
+        "fruity",
+        "sweet",
+        "white floral",
+        "woody"
+      ],
+      "top_notes": [
+        "anise",
+        "brazilian rosewood",
+        "coriander",
+        "plum",
+        "wild berries"
+      ],
+      "middle_notes": [
+        "african orange flower",
+        "carnation",
+        "cinnamon",
+        "incense",
+        "jasmine",
+        "opoponax",
+        "rose",
+        "tuberose",
+        "white honey"
+      ],
+      "base_notes": [
+        "amber",
+        "heliotrope",
+        "musk",
+        "sandalwood",
+        "vanille",
+        "vetiver",
+        "virginia cedar"
+      ],
+      "perfumers": [
+        "edouard fléchier"
+      ],
+      "cluster": "amber",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/dior/poison-218.html"
+    },
+    {
+      "id": "fragrance_47",
+      "index": 47,
+      "name": "acqua-di-gioia",
+      "brand": "giorgio-armani",
+      "country": "Italy",
+      "gender": "women",
+      "rating": 3.9,
+      "rating_count": 14643,
+      "year": null,
+      "accords": [
+        "aromatic",
+        "citrus",
+        "fresh spicy",
+        "green",
+        "white floral"
+      ],
+      "top_notes": [
+        "amalfi lemon",
+        "mint"
+      ],
+      "middle_notes": [
+        "water jasmine"
+      ],
+      "base_notes": [
+        "brown sugar",
+        "french labdanum",
+        "virginia cedar"
+      ],
+      "perfumers": [],
+      "cluster": "fresh spicy",
+      "seasonal": "fresh",
+      "url": "https://www.fragrantica.com/perfume/giorgio-armani/acqua-di-gioia-8442.html"
+    },
+    {
+      "id": "fragrance_48",
+      "index": 48,
+      "name": "dior-addict",
+      "brand": "dior",
+      "country": "France",
+      "gender": "women",
+      "rating": 4.11,
+      "rating_count": 14456,
+      "year": null,
+      "accords": [
+        "amber",
+        "fruity",
+        "sweet",
+        "vanilla",
+        "white floral"
+      ],
+      "top_notes": [
+        "blackberry",
+        "mandarin leaf",
+        "silk tree blossom"
+      ],
+      "middle_notes": [
+        "jasmine",
+        "night blooming cereus",
+        "orange blossom",
+        "rose"
+      ],
+      "base_notes": [
+        "mysore sandalwood",
+        "tonka bean",
+        "vanilla"
+      ],
+      "perfumers": [
+        "christian dussoulier"
+      ],
+      "cluster": "amber",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/dior/dior-addict-215.html"
+    },
+    {
+      "id": "fragrance_49",
+      "index": 49,
+      "name": "libre",
+      "brand": "yves-saint-laurent",
+      "country": "France",
+      "gender": "women",
+      "rating": 3.93,
+      "rating_count": 14331,
+      "year": null,
+      "accords": [
+        "aromatic",
+        "citrus",
+        "lavender",
+        "vanilla",
+        "white floral"
+      ],
+      "top_notes": [
+        "black currant",
+        "lavender",
+        "mandarin orange",
+        "petitgrain"
+      ],
+      "middle_notes": [
+        "jasmine",
+        "lavender",
+        "orange blossom"
+      ],
+      "base_notes": [
+        "ambergris",
+        "cedar",
+        "madagascar vanilla",
+        "musk"
+      ],
+      "perfumers": [
+        "anne flipo"
+      ],
+      "cluster": "lavender",
+      "seasonal": "fresh",
+      "url": "https://www.fragrantica.com/perfume/yves-saint-laurent/libre-56077.html"
+    },
+    {
+      "id": "fragrance_50",
+      "index": 50,
+      "name": "l-eau-d-issey-pour-homme",
+      "brand": "issey-miyake",
+      "country": "Japan",
+      "gender": "men",
+      "rating": 4.15,
+      "rating_count": 14183,
+      "year": null,
+      "accords": [
+        "aromatic",
+        "citrus",
+        "floral",
+        "fresh spicy",
+        "woody"
+      ],
+      "top_notes": [
+        "bergamot",
+        "calone",
+        "coriander",
+        "cypress",
+        "lemon",
+        "lemon verbena",
+        "mandarin orange",
+        "sage",
+        "tarragon",
+        "yuzu"
+      ],
+      "middle_notes": [
+        "blue lotus",
+        "bourbon geranium",
+        "ceylon cinnamon",
+        "lily-of-the-valley",
+        "mignonette",
+        "nutmeg",
+        "saffron"
+      ],
+      "base_notes": [
+        "amber",
+        "cedar",
+        "musk",
+        "sandalwood",
+        "tahitian vetiver",
+        "tobacco"
+      ],
+      "perfumers": [
+        "jacques cavallier"
+      ],
+      "cluster": "fresh spicy",
+      "seasonal": "fresh",
+      "url": "https://www.fragrantica.com/perfume/issey-miyake/l-eau-d-issey-pour-homme-721.html"
+    },
+    {
+      "id": "fragrance_51",
+      "index": 51,
+      "name": "hypnose",
+      "brand": "lancome",
+      "country": "France",
+      "gender": "women",
+      "rating": 3.86,
+      "rating_count": 14109,
+      "year": null,
+      "accords": [
+        "floral",
+        "fruity",
+        "sweet",
+        "vanilla",
+        "white floral"
+      ],
+      "top_notes": [
+        "passion flower"
+      ],
+      "middle_notes": [
+        "gardenia",
+        "jasmine"
+      ],
+      "base_notes": [
+        "vanille",
+        "vetiver"
+      ],
+      "perfumers": [
+        "annick menardo"
+      ],
+      "cluster": "white floral",
+      "seasonal": "spring",
+      "url": "https://www.fragrantica.com/perfume/lancome/hypnose-170.html"
+    },
+    {
+      "id": "fragrance_52",
+      "index": 52,
+      "name": "acqua-di-gio-profumo",
+      "brand": "giorgio-armani",
+      "country": "Italy",
+      "gender": "men",
+      "rating": 4.41,
+      "rating_count": 14072,
+      "year": null,
+      "accords": [
+        "amber",
+        "aromatic",
+        "fresh spicy",
+        "marine",
+        "woody"
+      ],
+      "top_notes": [
+        "bergamot",
+        "sea notes"
+      ],
+      "middle_notes": [
+        "geranium",
+        "rosemary",
+        "sage"
+      ],
+      "base_notes": [
+        "incense",
+        "patchouli"
+      ],
+      "perfumers": [
+        "alberto morillas"
+      ],
+      "cluster": "fresh spicy",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/giorgio-armani/acqua-di-gio-profumo-29727.html"
+    },
+    {
+      "id": "fragrance_53",
+      "index": 53,
+      "name": "chance-eau-fraiche",
+      "brand": "chanel",
+      "country": "France",
+      "gender": "women",
+      "rating": 4.08,
+      "rating_count": 13987,
+      "year": null,
+      "accords": [
+        "aromatic",
+        "citrus",
+        "floral",
+        "musky",
+        "woody"
+      ],
+      "top_notes": [
+        "cedar",
+        "citron",
+        "lemon"
+      ],
+      "middle_notes": [
+        "jasmine",
+        "pink pepper",
+        "water hyacinth"
+      ],
+      "base_notes": [
+        "amber",
+        "iris",
+        "patchouli",
+        "teak wood",
+        "vetiver",
+        "white musk"
+      ],
+      "perfumers": [
+        "jacques polge"
+      ],
+      "cluster": "musky",
+      "seasonal": "fresh",
+      "url": "https://www.fragrantica.com/perfume/chanel/chance-eau-fraiche-1483.html"
+    },
+    {
+      "id": "fragrance_54",
+      "index": 54,
+      "name": "nina",
+      "brand": "nina-ricci",
+      "country": "France",
+      "gender": "women",
+      "rating": 3.84,
+      "rating_count": 13972,
+      "year": null,
+      "accords": [
+        "citrus",
+        "fresh",
+        "fruity",
+        "sweet",
+        "woody"
+      ],
+      "top_notes": [
+        "amalfi lemon",
+        "lime"
+      ],
+      "middle_notes": [
+        "datura",
+        "granny smith apple",
+        "peony",
+        "praline"
+      ],
+      "base_notes": [
+        "apple tree",
+        "musk",
+        "virginia cedar"
+      ],
+      "perfumers": [],
+      "cluster": "woody",
+      "seasonal": "summer",
+      "url": "https://www.fragrantica.com/perfume/nina-ricci/nina-147.html"
+    },
+    {
+      "id": "fragrance_55",
+      "index": 55,
+      "name": "flower-by-kenzo",
+      "brand": "kenzo",
+      "country": "France",
+      "gender": "women",
+      "rating": 3.62,
+      "rating_count": 13967,
+      "year": null,
+      "accords": [
+        "amber",
+        "floral",
+        "powdery",
+        "rose",
+        "violet"
+      ],
+      "top_notes": [
+        "black currant",
+        "bulgarian rose",
+        "hawthorn",
+        "mandarin orange"
+      ],
+      "middle_notes": [
+        "jasmine",
+        "opoponax",
+        "parma violet",
+        "rose"
+      ],
+      "base_notes": [
+        "incense",
+        "vanilla",
+        "white musk"
+      ],
+      "perfumers": [
+        "alberto morillas"
+      ],
+      "cluster": "violet",
+      "seasonal": "fall",
+      "url": "https://www.fragrantica.com/perfume/kenzo/flower-by-kenzo-72.html"
+    },
+    {
+      "id": "fragrance_56",
+      "index": 56,
+      "name": "fantasy",
+      "brand": "britney-spears",
+      "country": "USA",
+      "gender": "women",
+      "rating": 3.93,
+      "rating_count": 13832,
+      "year": null,
+      "accords": [
+        "chocolate",
+        "fresh",
+        "fruity",
+        "sweet",
+        "tropical"
+      ],
+      "top_notes": [
+        "kiwi",
+        "quince",
+        "red litchi"
+      ],
+      "middle_notes": [
+        "cupcake",
+        "jasmine",
+        "orchid",
+        "white chocolate"
+      ],
+      "base_notes": [
+        "musk",
+        "orris root",
+        "woodsy notes"
+      ],
+      "perfumers": [
+        "james krivda"
+      ],
+      "cluster": "tropical",
+      "seasonal": "summer",
+      "url": "https://www.fragrantica.com/perfume/britney-spears/fantasy-600.html"
+    },
+    {
+      "id": "fragrance_57",
+      "index": 57,
+      "name": "armani-code-for-women",
+      "brand": "giorgio-armani",
+      "country": "Italy",
+      "gender": "women",
+      "rating": 3.98,
+      "rating_count": 13821,
+      "year": null,
+      "accords": [
+        "citrus",
+        "honey",
+        "sweet",
+        "vanilla",
+        "white floral"
+      ],
+      "top_notes": [
+        "bitter orange",
+        "italian orange",
+        "jasmine"
+      ],
+      "middle_notes": [
+        "ginger",
+        "jasmine",
+        "orange blossom"
+      ],
+      "base_notes": [
+        "honey",
+        "sandalwood",
+        "vanilla"
+      ],
+      "perfumers": [],
+      "cluster": "honey",
+      "seasonal": "sweet",
+      "url": "https://www.fragrantica.com/perfume/giorgio-armani/armani-code-for-women-413.html"
+    },
+    {
+      "id": "fragrance_58",
+      "index": 58,
+      "name": "mon-guerlain",
+      "brand": "guerlain",
+      "country": "France",
+      "gender": "women",
+      "rating": 4.06,
+      "rating_count": 13785,
+      "year": null,
+      "accords": [
+        "aromatic",
+        "lavender",
+        "powdery",
+        "vanilla",
+        "woody"
+      ],
+      "top_notes": [
+        "bergamot",
+        "lavender"
+      ],
+      "middle_notes": [
+        "iris",
+        "jasmine sambac",
+        "rose"
+      ],
+      "base_notes": [
+        "australian sandalwood",
+        "benzoin",
+        "coumarin",
+        "licorice",
+        "patchouli",
+        "tahitian vanilla"
+      ],
+      "perfumers": [
+        "delphine jelk"
+      ],
+      "cluster": "lavender",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/guerlain/mon-guerlain-43297.html"
+    },
+    {
+      "id": "fragrance_59",
+      "index": 59,
+      "name": "bleu-de-chanel-eau-de-parfum",
+      "brand": "chanel",
+      "country": "France",
+      "gender": "men",
+      "rating": 4.42,
+      "rating_count": 13646,
+      "year": null,
+      "accords": [
+        "amber",
+        "aromatic",
+        "citrus",
+        "warm spicy",
+        "woody"
+      ],
+      "top_notes": [
+        "aldehydes",
+        "bergamot",
+        "coriander",
+        "grapefruit",
+        "lemon",
+        "mint",
+        "pink pepper"
+      ],
+      "middle_notes": [
+        "ginger",
+        "jasmine",
+        "melon",
+        "nutmeg"
+      ],
+      "base_notes": [
+        "amber",
+        "amberwood",
+        "cedar",
+        "incense",
+        "labdanum",
+        "patchouli",
+        "sandalwood"
+      ],
+      "perfumers": [
+        "jacques polge"
+      ],
+      "cluster": "amber",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/chanel/bleu-de-chanel-eau-de-parfum-25967.html"
+    },
+    {
+      "id": "fragrance_60",
+      "index": 60,
+      "name": "le-male-le-parfum",
+      "brand": "jean-paul-gaultier",
+      "country": "France",
+      "gender": "men",
+      "rating": 4.6,
+      "rating_count": 13406,
+      "year": null,
+      "accords": [
+        "aromatic",
+        "lavender",
+        "powdery",
+        "vanilla",
+        "warm spicy"
+      ],
+      "top_notes": [
+        "cardamom"
+      ],
+      "middle_notes": [
+        "iris",
+        "lavender"
+      ],
+      "base_notes": [
+        "oriental notes",
+        "vanilla",
+        "woodsy notes"
+      ],
+      "perfumers": [
+        "natalie gracia-cetto"
+      ],
+      "cluster": "lavender",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/jean-paul-gaultier/le-male-le-parfum-61856.html"
+    },
+    {
+      "id": "fragrance_61",
+      "index": 61,
+      "name": "pink-sugar",
+      "brand": "aquolina",
+      "country": "Italy",
+      "gender": "women",
+      "rating": 3.73,
+      "rating_count": 13393,
+      "year": null,
+      "accords": [
+        "caramel",
+        "fruity",
+        "soft spicy",
+        "sweet",
+        "vanilla"
+      ],
+      "top_notes": [
+        "bergamot",
+        "fig leaf",
+        "orange",
+        "raspberry"
+      ],
+      "middle_notes": [
+        "cotton candy",
+        "licorice",
+        "lily-of-the-valley",
+        "red berries",
+        "strawberry"
+      ],
+      "base_notes": [
+        "caramel",
+        "musk",
+        "sandalwood",
+        "tonka bean",
+        "vanilla"
+      ],
+      "perfumers": [
+        "givaudan"
+      ],
+      "cluster": "soft spicy",
+      "seasonal": "sweet",
+      "url": "https://www.fragrantica.com/perfume/aquolina/pink-sugar-975.html"
+    },
+    {
+      "id": "fragrance_62",
+      "index": 62,
+      "name": "miracle",
+      "brand": "lancome",
+      "country": "France",
+      "gender": "women",
+      "rating": 3.94,
+      "rating_count": 13332,
+      "year": null,
+      "accords": [
+        "citrus",
+        "floral",
+        "fresh spicy",
+        "fruity",
+        "warm spicy"
+      ],
+      "top_notes": [
+        "freesia",
+        "litchi"
+      ],
+      "middle_notes": [
+        "ginger",
+        "jasmine",
+        "magnolia",
+        "mandarin orange",
+        "pepper"
+      ],
+      "base_notes": [
+        "amber",
+        "jasmine",
+        "musk"
+      ],
+      "perfumers": [],
+      "cluster": "fresh spicy",
+      "seasonal": "summer",
+      "url": "https://www.fragrantica.com/perfume/lancome/miracle-184.html"
+    },
+    {
+      "id": "fragrance_63",
+      "index": 63,
+      "name": "chanel-no-5-parfum",
+      "brand": "chanel",
+      "country": "France",
+      "gender": "women",
+      "rating": 3.69,
+      "rating_count": 13217,
+      "year": null,
+      "accords": [
+        "aldehydic",
+        "fresh",
+        "iris",
+        "powdery",
+        "woody"
+      ],
+      "top_notes": [
+        "aldehydes",
+        "bergamot",
+        "lemon",
+        "neroli",
+        "ylang-ylang"
+      ],
+      "middle_notes": [
+        "iris",
+        "jasmine",
+        "lily-of-the-valley",
+        "orris root",
+        "rose"
+      ],
+      "base_notes": [
+        "amber",
+        "civet",
+        "moss",
+        "musk",
+        "patchouli",
+        "sandalwood",
+        "vanilla",
+        "vetiver"
+      ],
+      "perfumers": [
+        "ernest beaux"
+      ],
+      "cluster": "woody",
+      "seasonal": "fall",
+      "url": "https://www.fragrantica.com/perfume/chanel/chanel-no-5-parfum-28711.html"
+    },
+    {
+      "id": "fragrance_64",
+      "index": 64,
+      "name": "versace-man-eau-fraiche",
+      "brand": "versace",
+      "country": "Italy",
+      "gender": "men",
+      "rating": 4.15,
+      "rating_count": 13065,
+      "year": null,
+      "accords": [
+        "aromatic",
+        "citrus",
+        "fresh spicy",
+        "fruity",
+        "woody"
+      ],
+      "top_notes": [
+        "bergamot",
+        "brazilian rosewood",
+        "carambola (star fruit)",
+        "cardamom",
+        "lemon"
+      ],
+      "middle_notes": [
+        "cedar",
+        "pepper",
+        "sage",
+        "tarragon"
+      ],
+      "base_notes": [
+        "amber",
+        "musk",
+        "saffron",
+        "sycamore",
+        "woodsy notes"
+      ],
+      "perfumers": [
+        "olivier cresp"
+      ],
+      "cluster": "fresh spicy",
+      "seasonal": "summer",
+      "url": "https://www.fragrantica.com/perfume/versace/versace-man-eau-fraiche-644.html"
+    },
+    {
+      "id": "fragrance_65",
+      "index": 65,
+      "name": "amor-amor",
+      "brand": "cacharel",
+      "country": "France",
+      "gender": "women",
+      "rating": 3.74,
+      "rating_count": 12922,
+      "year": null,
+      "accords": [
+        "aromatic",
+        "citrus",
+        "fruity",
+        "soft spicy",
+        "vanilla"
+      ],
+      "top_notes": [
+        "bergamot",
+        "black currant",
+        "cassia",
+        "grapefruit",
+        "mandarin orange",
+        "orange"
+      ],
+      "middle_notes": [
+        "apricot",
+        "jasmine",
+        "lily",
+        "lily-of-the-valley",
+        "rose"
+      ],
+      "base_notes": [
+        "amber",
+        "musk",
+        "tonka bean",
+        "vanilla",
+        "virginia cedar"
+      ],
+      "perfumers": [
+        "dominique ropion"
+      ],
+      "cluster": "soft spicy",
+      "seasonal": "summer",
+      "url": "https://www.fragrantica.com/perfume/cacharel/amor-amor-238.html"
+    },
+    {
+      "id": "fragrance_66",
+      "index": 66,
+      "name": "lady-million",
+      "brand": "paco-rabanne",
+      "country": "Spain",
+      "gender": "women",
+      "rating": 3.62,
+      "rating_count": 12921,
+      "year": null,
+      "accords": [
+        "citrus",
+        "fruity",
+        "honey",
+        "sweet",
+        "white floral"
+      ],
+      "top_notes": [
+        "amalfi lemon",
+        "neroli",
+        "raspberry"
+      ],
+      "middle_notes": [
+        "african orange flower",
+        "gardenia",
+        "jasmine"
+      ],
+      "base_notes": [
+        "amber",
+        "patchouli",
+        "white honey"
+      ],
+      "perfumers": [],
+      "cluster": "honey",
+      "seasonal": "summer",
+      "url": "https://www.fragrantica.com/perfume/paco-rabanne/lady-million-9045.html"
+    },
+    {
+      "id": "fragrance_67",
+      "index": 67,
+      "name": "green-tea",
+      "brand": "elizabeth-arden",
+      "country": "USA",
+      "gender": "women",
+      "rating": 3.82,
+      "rating_count": 12738,
+      "year": null,
+      "accords": [
+        "aromatic",
+        "citrus",
+        "fresh",
+        "fresh spicy",
+        "green"
+      ],
+      "top_notes": [
+        "bergamot",
+        "lemon",
+        "mint",
+        "orange peel",
+        "rhubarb"
+      ],
+      "middle_notes": [
+        "carnation",
+        "fennel",
+        "jasmine",
+        "musk",
+        "oakmoss",
+        "white amber"
+      ],
+      "base_notes": [
+        "amber",
+        "caraway",
+        "celery seeds",
+        "cloves",
+        "green tea",
+        "jasmine",
+        "musk",
+        "oakmoss"
+      ],
+      "perfumers": [
+        "francis kurkdjian"
+      ],
+      "cluster": "fresh spicy",
+      "seasonal": "fresh",
+      "url": "https://www.fragrantica.com/perfume/elizabeth-arden/green-tea-83.html"
+    },
+    {
+      "id": "fragrance_68",
+      "index": 68,
+      "name": "cloud",
+      "brand": "ariana-grande",
+      "country": "USA",
+      "gender": "women",
+      "rating": 3.99,
+      "rating_count": 12730,
+      "year": null,
+      "accords": [
+        "coconut",
+        "lactonic",
+        "musky",
+        "sweet",
+        "vanilla"
+      ],
+      "top_notes": [
+        "bergamot",
+        "lavender",
+        "pear"
+      ],
+      "middle_notes": [
+        "coconut",
+        "praline",
+        "vanilla orchid",
+        "whipped cream"
+      ],
+      "base_notes": [
+        "musk",
+        "woody notes"
+      ],
+      "perfumers": [
+        "clement gavarry"
+      ],
+      "cluster": "musky",
+      "seasonal": "sweet",
+      "url": "https://www.fragrantica.com/perfume/ariana-grande/cloud-50384.html"
+    },
+    {
+      "id": "fragrance_69",
+      "index": 69,
+      "name": "un-jardin-sur-le-nil",
+      "brand": "hermes",
+      "country": "France",
+      "gender": "unisex",
+      "rating": 4.12,
+      "rating_count": 12634,
+      "year": null,
+      "accords": [
+        "aromatic",
+        "citrus",
+        "floral",
+        "fresh spicy",
+        "green"
+      ],
+      "top_notes": [
+        "carrot",
+        "grapefruit",
+        "green mango",
+        "tomato"
+      ],
+      "middle_notes": [
+        "bulrush",
+        "hiacynth",
+        "lotus",
+        "orange",
+        "peony"
+      ],
+      "base_notes": [
+        "cinnamon",
+        "incense",
+        "iris",
+        "labdanum",
+        "musk"
+      ],
+      "perfumers": [
+        "jean-claude ellena"
+      ],
+      "cluster": "fresh spicy",
+      "seasonal": "fresh",
+      "url": "https://www.fragrantica.com/perfume/hermes/un-jardin-sur-le-nil-18.html"
+    },
+    {
+      "id": "fragrance_70",
+      "index": 70,
+      "name": "ultra-male",
+      "brand": "jean-paul-gaultier",
+      "country": "France",
+      "gender": "men",
+      "rating": 4.44,
+      "rating_count": 12479,
+      "year": null,
+      "accords": [
+        "aromatic",
+        "cinnamon",
+        "fruity",
+        "sweet",
+        "vanilla"
+      ],
+      "top_notes": [
+        "bergamot",
+        "lavender",
+        "lemon",
+        "mint",
+        "pear"
+      ],
+      "middle_notes": [
+        "caraway",
+        "cinnamon",
+        "clary sage"
+      ],
+      "base_notes": [
+        "amber",
+        "black vanilla husk",
+        "cedar",
+        "patchouli"
+      ],
+      "perfumers": [
+        "francis kurkdjian"
+      ],
+      "cluster": "cinnamon",
+      "seasonal": "sweet",
+      "url": "https://www.fragrantica.com/perfume/jean-paul-gaultier/ultra-male-30947.html"
+    },
+    {
+      "id": "fragrance_71",
+      "index": 71,
+      "name": "kenzo-jungle-l-elephant",
+      "brand": "kenzo",
+      "country": "France",
+      "gender": "women",
+      "rating": 3.92,
+      "rating_count": 12423,
+      "year": null,
+      "accords": [
+        "aromatic",
+        "fresh spicy",
+        "sweet",
+        "vanilla",
+        "warm spicy"
+      ],
+      "top_notes": [
+        "cloves",
+        "cumin",
+        "mandarin orange"
+      ],
+      "middle_notes": [
+        "caraway",
+        "cardamom",
+        "gardenia",
+        "heliotrope",
+        "licorice",
+        "mango",
+        "ylang-ylang"
+      ],
+      "base_notes": [
+        "amber",
+        "patchouli",
+        "vanilla"
+      ],
+      "perfumers": [
+        "dominique ropion"
+      ],
+      "cluster": "fresh spicy",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/kenzo/kenzo-jungle-l-elephant-70.html"
+    },
+    {
+      "id": "fragrance_72",
+      "index": 72,
+      "name": "the-one-for-men",
+      "brand": "dolce-gabbana",
+      "country": "Italy",
+      "gender": "men",
+      "rating": 4.25,
+      "rating_count": 12386,
+      "year": null,
+      "accords": [
+        "amber",
+        "aromatic",
+        "citrus",
+        "tobacco",
+        "warm spicy"
+      ],
+      "top_notes": [
+        "basil",
+        "coriander",
+        "grapefruit"
+      ],
+      "middle_notes": [
+        "cardamom",
+        "ginger",
+        "orange blossom"
+      ],
+      "base_notes": [
+        "amber",
+        "cedar",
+        "tobacco"
+      ],
+      "perfumers": [
+        "olivier polge"
+      ],
+      "cluster": "amber",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/dolce-gabbana/the-one-for-men-2056.html"
+    },
+    {
+      "id": "fragrance_73",
+      "index": 73,
+      "name": "allure-homme-sport",
+      "brand": "chanel",
+      "country": "France",
+      "gender": "men",
+      "rating": 4.26,
+      "rating_count": 12382,
+      "year": null,
+      "accords": [
+        "aldehydic",
+        "aromatic",
+        "citrus",
+        "marine",
+        "vanilla"
+      ],
+      "top_notes": [
+        "aldehydes",
+        "blood mandarin",
+        "orange",
+        "sea notes"
+      ],
+      "middle_notes": [
+        "cedar",
+        "neroli",
+        "pepper"
+      ],
+      "base_notes": [
+        "amber",
+        "elemi resin",
+        "tonka bean",
+        "vanilla",
+        "vetiver",
+        "white musk"
+      ],
+      "perfumers": [
+        "jacques polge"
+      ],
+      "cluster": "aldehydic",
+      "seasonal": "fresh",
+      "url": "https://www.fragrantica.com/perfume/chanel/allure-homme-sport-607.html"
+    },
+    {
+      "id": "fragrance_74",
+      "index": 74,
+      "name": "coco-eau-de-parfum",
+      "brand": "chanel",
+      "country": "France",
+      "gender": "women",
+      "rating": 4.26,
+      "rating_count": 12365,
+      "year": null,
+      "accords": [
+        "amber",
+        "powdery",
+        "sweet",
+        "warm spicy",
+        "woody"
+      ],
+      "top_notes": [
+        "bulgarian rose",
+        "coriander",
+        "jasmine",
+        "mandarin orange",
+        "peach"
+      ],
+      "middle_notes": [
+        "clover",
+        "cloves",
+        "mimosa",
+        "orange blossom",
+        "rose"
+      ],
+      "base_notes": [
+        "amber",
+        "civet",
+        "labdanum",
+        "opoponax",
+        "sandalwood",
+        "tonka bean",
+        "vanilla"
+      ],
+      "perfumers": [
+        "jacques polge"
+      ],
+      "cluster": "amber",
+      "seasonal": "fall",
+      "url": "https://www.fragrantica.com/perfume/chanel/coco-eau-de-parfum-609.html"
+    },
+    {
+      "id": "fragrance_75",
+      "index": 75,
+      "name": "nautica-voyage",
+      "brand": "nautica",
+      "country": "USA",
+      "gender": "men",
+      "rating": 3.95,
+      "rating_count": 12304,
+      "year": null,
+      "accords": [
+        "floral",
+        "fresh",
+        "fruity",
+        "green",
+        "powdery"
+      ],
+      "top_notes": [
+        "apple",
+        "green leaves"
+      ],
+      "middle_notes": [
+        "lotus",
+        "mimosa"
+      ],
+      "base_notes": [
+        "amber",
+        "cedar",
+        "musk",
+        "oakmoss"
+      ],
+      "perfumers": [
+        "maurice roucel"
+      ],
+      "cluster": "green",
+      "seasonal": "spring",
+      "url": "https://www.fragrantica.com/perfume/nautica/nautica-voyage-913.html"
+    },
+    {
+      "id": "fragrance_76",
+      "index": 76,
+      "name": "olympea",
+      "brand": "paco-rabanne",
+      "country": "Spain",
+      "gender": "women",
+      "rating": 3.85,
+      "rating_count": 12158,
+      "year": null,
+      "accords": [
+        "amber",
+        "salty",
+        "vanilla",
+        "white floral",
+        "woody"
+      ],
+      "top_notes": [
+        "ginger flower",
+        "green mandarin",
+        "water jasmine"
+      ],
+      "middle_notes": [
+        "salt",
+        "vanilla"
+      ],
+      "base_notes": [
+        "ambergris",
+        "cashmere wood",
+        "sandalwood"
+      ],
+      "perfumers": [],
+      "cluster": "amber",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/paco-rabanne/olympea-31666.html"
+    },
+    {
+      "id": "fragrance_77",
+      "index": 77,
+      "name": "dune",
+      "brand": "dior",
+      "country": "France",
+      "gender": "women",
+      "rating": 3.98,
+      "rating_count": 12133,
+      "year": null,
+      "accords": [
+        "amber",
+        "balsamic",
+        "powdery",
+        "warm spicy",
+        "woody"
+      ],
+      "top_notes": [
+        "aldehydes",
+        "bergamot",
+        "brazilian rosewood",
+        "mandarin orange",
+        "peony"
+      ],
+      "middle_notes": [
+        "jasmine",
+        "lily",
+        "rose",
+        "wallflower",
+        "ylang-ylang"
+      ],
+      "base_notes": [
+        "amber",
+        "benzoin",
+        "musk",
+        "oakmoss",
+        "patchouli",
+        "sandalwood",
+        "vanilla"
+      ],
+      "perfumers": [],
+      "cluster": "amber",
+      "seasonal": "fall",
+      "url": "https://www.fragrantica.com/perfume/dior/dune-221.html"
+    },
+    {
+      "id": "fragrance_78",
+      "index": 78,
+      "name": "angels-share",
+      "brand": "by-kilian",
+      "country": "France",
+      "gender": "unisex",
+      "rating": 4.38,
+      "rating_count": 12081,
+      "year": null,
+      "accords": [
+        "cinnamon",
+        "sweet",
+        "vanilla",
+        "warm spicy",
+        "woody"
+      ],
+      "top_notes": [
+        "cognac"
+      ],
+      "middle_notes": [
+        "cinnamon",
+        "oak",
+        "tonka bean"
+      ],
+      "base_notes": [
+        "praline",
+        "sandalwood",
+        "vanilla"
+      ],
+      "perfumers": [
+        "benoist lapouza"
+      ],
+      "cluster": "woody",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/by-kilian/angels-share-62615.html"
+    },
+    {
+      "id": "fragrance_79",
+      "index": 79,
+      "name": "tresor",
+      "brand": "lancome",
+      "country": "France",
+      "gender": "women",
+      "rating": 3.64,
+      "rating_count": 12043,
+      "year": null,
+      "accords": [
+        "floral",
+        "fruity",
+        "powdery",
+        "rose",
+        "sweet"
+      ],
+      "top_notes": [
+        "apricot blossom",
+        "bergamot",
+        "lilac",
+        "lily-of-the-valley",
+        "peach",
+        "pineapple",
+        "rose"
+      ],
+      "middle_notes": [
+        "heliotrope",
+        "iris",
+        "jasmine",
+        "rose"
+      ],
+      "base_notes": [
+        "amber",
+        "apricot",
+        "musk",
+        "peach",
+        "sandalwood",
+        "vanilla"
+      ],
+      "perfumers": [
+        "sophia grojsman"
+      ],
+      "cluster": "powdery",
+      "seasonal": "sweet",
+      "url": "https://www.fragrantica.com/perfume/lancome/tresor-172.html"
+    },
+    {
+      "id": "fragrance_80",
+      "index": 80,
+      "name": "ange-ou-demon",
+      "brand": "givenchy",
+      "country": "France",
+      "gender": "women",
+      "rating": 3.82,
+      "rating_count": 12023,
+      "year": null,
+      "accords": [
+        "aromatic",
+        "sweet",
+        "vanilla",
+        "warm spicy",
+        "white floral"
+      ],
+      "top_notes": [
+        "mandarin orange",
+        "saffron",
+        "thyme"
+      ],
+      "middle_notes": [
+        "lily",
+        "orchid",
+        "ylang-ylang"
+      ],
+      "base_notes": [
+        "brazilian rosewood",
+        "oakmoss",
+        "tonka bean",
+        "vanilla"
+      ],
+      "perfumers": [
+        "jean-pierre bethouart"
+      ],
+      "cluster": "white floral",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/givenchy/ange-ou-demon-701.html"
+    },
+    {
+      "id": "fragrance_81",
+      "index": 81,
+      "name": "bal-d-afrique",
+      "brand": "byredo",
+      "country": "Sweden",
+      "gender": "unisex",
+      "rating": 4.14,
+      "rating_count": 11988,
+      "year": null,
+      "accords": [
+        "aromatic",
+        "citrus",
+        "floral",
+        "fresh spicy",
+        "woody"
+      ],
+      "top_notes": [
+        "african orange flower",
+        "amalfi lemon",
+        "bergamot",
+        "black currant",
+        "tagetes"
+      ],
+      "middle_notes": [
+        "cyclamen",
+        "jasmine",
+        "violet"
+      ],
+      "base_notes": [
+        "amber",
+        "musk",
+        "vetiver",
+        "virginia cedar"
+      ],
+      "perfumers": [
+        "jérôme epinette"
+      ],
+      "cluster": "fresh spicy",
+      "seasonal": "fresh",
+      "url": "https://www.fragrantica.com/perfume/byredo/bal-d-afrique-6458.html"
+    },
+    {
+      "id": "fragrance_82",
+      "index": 82,
+      "name": "cheap-chic-i-love-love",
+      "brand": "moschino",
+      "country": "Italy",
+      "gender": "women",
+      "rating": 3.92,
+      "rating_count": 11967,
+      "year": null,
+      "accords": [
+        "aromatic",
+        "citrus",
+        "sweet"
+      ],
+      "top_notes": [
+        "grapefruit",
+        "lemon",
+        "orange",
+        "red currant"
+      ],
+      "middle_notes": [
+        "bulrush",
+        "cinnamon",
+        "lily-of-the-valley",
+        "sugar cane",
+        "tea rose"
+      ],
+      "base_notes": [
+        "cedar",
+        "musk",
+        "thanaka wood"
+      ],
+      "perfumers": [
+        "olivier cresp"
+      ],
+      "cluster": "aromatic",
+      "seasonal": "fresh",
+      "url": "https://www.fragrantica.com/perfume/moschino/cheap-chic-i-love-love-728.html"
+    },
+    {
+      "id": "fragrance_83",
+      "index": 83,
+      "name": "chance-eau-de-toilette",
+      "brand": "chanel",
+      "country": "France",
+      "gender": "women",
+      "rating": 3.93,
+      "rating_count": 11921,
+      "year": null,
+      "accords": [
+        "citrus",
+        "earthy",
+        "patchouli",
+        "sweet",
+        "woody"
+      ],
+      "top_notes": [
+        "hiacynth",
+        "iris",
+        "patchouli",
+        "pineapple",
+        "pink pepper"
+      ],
+      "middle_notes": [
+        "jasmine",
+        "lemon",
+        "rose"
+      ],
+      "base_notes": [
+        "musk",
+        "patchouli",
+        "vanilla",
+        "vetiver"
+      ],
+      "perfumers": [
+        "jacques polge"
+      ],
+      "cluster": "woody",
+      "seasonal": "fall",
+      "url": "https://www.fragrantica.com/perfume/chanel/chance-eau-de-toilette-610.html"
+    },
+    {
+      "id": "fragrance_84",
+      "index": 84,
+      "name": "noa",
+      "brand": "cacharel",
+      "country": "France",
+      "gender": "women",
+      "rating": 3.87,
+      "rating_count": 11884,
+      "year": null,
+      "accords": [
+        "floral",
+        "fresh",
+        "musky",
+        "powdery",
+        "white floral"
+      ],
+      "top_notes": [
+        "freesia",
+        "green notes",
+        "peach",
+        "peony",
+        "plum",
+        "white musk"
+      ],
+      "middle_notes": [
+        "green grass",
+        "jasmine",
+        "lily",
+        "lily-of-the-valley",
+        "rose",
+        "ylang-ylang"
+      ],
+      "base_notes": [
+        "cedar",
+        "coffee",
+        "coriander",
+        "incense",
+        "sandalwood",
+        "tonka bean",
+        "vanilla"
+      ],
+      "perfumers": [
+        "olivier cresp"
+      ],
+      "cluster": "musky",
+      "seasonal": "spring",
+      "url": "https://www.fragrantica.com/perfume/cacharel/noa-242.html"
+    },
+    {
+      "id": "fragrance_85",
+      "index": 85,
+      "name": "poeme",
+      "brand": "lancome",
+      "country": "France",
+      "gender": "women",
+      "rating": 3.99,
+      "rating_count": 11841,
+      "year": null,
+      "accords": [
+        "floral",
+        "powdery",
+        "sweet",
+        "white floral",
+        "yellow floral"
+      ],
+      "top_notes": [
+        "bergamot",
+        "black currant",
+        "datura",
+        "green notes",
+        "himalayan poppy",
+        "mandarin orange",
+        "narcissus",
+        "peach",
+        "plum"
+      ],
+      "middle_notes": [
+        "freesia",
+        "heliotrope",
+        "jasmine",
+        "leather",
+        "mimosa",
+        "orange blossom",
+        "rose",
+        "tuberose",
+        "vanilla flower",
+        "ylang-ylang"
+      ],
+      "base_notes": [
+        "amber",
+        "cedar",
+        "musk",
+        "orange blossom",
+        "tonka bean",
+        "vanilla"
+      ],
+      "perfumers": [
+        "jacques cavallier"
+      ],
+      "cluster": "white floral",
+      "seasonal": "spring",
+      "url": "https://www.fragrantica.com/perfume/lancome/poeme-171.html"
+    },
+    {
+      "id": "fragrance_86",
+      "index": 86,
+      "name": "daisy",
+      "brand": "marc-jacobs",
+      "country": "USA",
+      "gender": "women",
+      "rating": 3.8,
+      "rating_count": 11769,
+      "year": null,
+      "accords": [
+        "citrus",
+        "ozonic",
+        "powdery",
+        "violet",
+        "white floral"
+      ],
+      "top_notes": [
+        "blood grapefruit",
+        "strawberry",
+        "violet leaf"
+      ],
+      "middle_notes": [
+        "gardenia",
+        "jasmine",
+        "violet"
+      ],
+      "base_notes": [
+        "musk",
+        "vanilla",
+        "white woods"
+      ],
+      "perfumers": [
+        "alberto morillas"
+      ],
+      "cluster": "violet",
+      "seasonal": "summer",
+      "url": "https://www.fragrantica.com/perfume/marc-jacobs/daisy-1361.html"
+    },
+    {
+      "id": "fragrance_87",
+      "index": 87,
+      "name": "narciso-rodriguez-for-her-eau-de-parfum",
+      "brand": "narciso-rodriguez",
+      "country": "USA",
+      "gender": "women",
+      "rating": 3.97,
+      "rating_count": 11725,
+      "year": null,
+      "accords": [
+        "musky",
+        "patchouli",
+        "powdery",
+        "rose",
+        "woody"
+      ],
+      "top_notes": [
+        "peach",
+        "rose"
+      ],
+      "middle_notes": [
+        "amber",
+        "musk"
+      ],
+      "base_notes": [
+        "patchouli",
+        "sandalwood"
+      ],
+      "perfumers": [
+        "christine nagel"
+      ],
+      "cluster": "musky",
+      "seasonal": "fall",
+      "url": "https://www.fragrantica.com/perfume/narciso-rodriguez/narciso-rodriguez-for-her-eau-de-parfum-14319.html"
+    },
+    {
+      "id": "fragrance_88",
+      "index": 88,
+      "name": "jazz-club",
+      "brand": "maison-martin-margiela",
+      "country": "France",
+      "gender": "men",
+      "rating": 4.2,
+      "rating_count": 11724,
+      "year": null,
+      "accords": [
+        "rum",
+        "sweet",
+        "tobacco",
+        "vanilla",
+        "woody"
+      ],
+      "top_notes": [
+        "lemon",
+        "neroli",
+        "pink pepper"
+      ],
+      "middle_notes": [
+        "clary sage",
+        "java vetiver oil",
+        "rum"
+      ],
+      "base_notes": [
+        "styrax",
+        "tobacco leaf",
+        "vanilla bean"
+      ],
+      "perfumers": [
+        "alienor massenet"
+      ],
+      "cluster": "tobacco",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/maison-martin-margiela/jazz-club-20541.html"
+    },
+    {
+      "id": "fragrance_89",
+      "index": 89,
+      "name": "spicebomb",
+      "brand": "viktor-rolf",
+      "country": "Netherlands",
+      "gender": "men",
+      "rating": 4.3,
+      "rating_count": 11529,
+      "year": null,
+      "accords": [
+        "cinnamon",
+        "soft spicy",
+        "sweet",
+        "tobacco",
+        "warm spicy"
+      ],
+      "top_notes": [
+        "bergamot",
+        "elemi",
+        "grapefruit",
+        "pink pepper"
+      ],
+      "middle_notes": [
+        "cinnamon",
+        "paprika",
+        "saffron"
+      ],
+      "base_notes": [
+        "leather",
+        "tobacco",
+        "vetiver"
+      ],
+      "perfumers": [
+        "olivier polge"
+      ],
+      "cluster": "soft spicy",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/viktor-rolf/spicebomb-13857.html"
+    },
+    {
+      "id": "fragrance_90",
+      "index": 90,
+      "name": "layton",
+      "brand": "parfums-de-marly",
+      "country": "France",
+      "gender": "unisex",
+      "rating": 4.46,
+      "rating_count": 11455,
+      "year": null,
+      "accords": [
+        "aromatic",
+        "fresh spicy",
+        "vanilla",
+        "warm spicy",
+        "woody"
+      ],
+      "top_notes": [
+        "apple",
+        "bergamot",
+        "lavender",
+        "mandarin orange"
+      ],
+      "middle_notes": [
+        "geranium",
+        "jasmine",
+        "violet"
+      ],
+      "base_notes": [
+        "cardamom",
+        "guaiac wood",
+        "patchouli",
+        "pepper",
+        "sandalwood",
+        "vanilla"
+      ],
+      "perfumers": [
+        "hamid merati-kashani"
+      ],
+      "cluster": "fresh spicy",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/parfums-de-marly/layton-39314.html"
+    },
+    {
+      "id": "fragrance_91",
+      "index": 91,
+      "name": "classique",
+      "brand": "jean-paul-gaultier",
+      "country": "France",
+      "gender": "women",
+      "rating": 3.92,
+      "rating_count": 11424,
+      "year": null,
+      "accords": [
+        "citrus",
+        "powdery",
+        "sweet",
+        "vanilla",
+        "white floral"
+      ],
+      "top_notes": [
+        "bergamot",
+        "mandarin orange",
+        "orange blossom",
+        "pear",
+        "rose",
+        "star anise"
+      ],
+      "middle_notes": [
+        "ginger",
+        "iris",
+        "orchid",
+        "plum",
+        "tuberose",
+        "ylang-ylang"
+      ],
+      "base_notes": [
+        "amber",
+        "cinnamon",
+        "musk",
+        "sandalwood",
+        "vanilla"
+      ],
+      "perfumers": [
+        "jacques cavallier"
+      ],
+      "cluster": "white floral",
+      "seasonal": "sweet",
+      "url": "https://www.fragrantica.com/perfume/jean-paul-gaultier/classique-427.html"
+    },
+    {
+      "id": "fragrance_92",
+      "index": 92,
+      "name": "lost-cherry",
+      "brand": "tom-ford",
+      "country": "USA",
+      "gender": "unisex",
+      "rating": 4.13,
+      "rating_count": 11354,
+      "year": null,
+      "accords": [
+        "almond",
+        "cherry",
+        "fruity",
+        "nutty",
+        "sweet"
+      ],
+      "top_notes": [
+        "bitter almond",
+        "black cherry",
+        "cherry liqueur"
+      ],
+      "middle_notes": [
+        "jasmine sambac",
+        "plum",
+        "sour cherry",
+        "turkish rose"
+      ],
+      "base_notes": [
+        "benzoin",
+        "cedar",
+        "cinnamon",
+        "cloves",
+        "patchouli",
+        "peru balsam",
+        "sandalwood",
+        "tonka bean",
+        "vanilla",
+        "vetiver"
+      ],
+      "perfumers": [
+        "louise turner"
+      ],
+      "cluster": "nutty",
+      "seasonal": "summer",
+      "url": "https://www.fragrantica.com/perfume/tom-ford/lost-cherry-51411.html"
+    },
+    {
+      "id": "fragrance_93",
+      "index": 93,
+      "name": "the-one-for-men-eau-de-parfum",
+      "brand": "dolce-gabbana",
+      "country": "Italy",
+      "gender": "men",
+      "rating": 4.49,
+      "rating_count": 11353,
+      "year": null,
+      "accords": [
+        "amber",
+        "aromatic",
+        "citrus",
+        "tobacco",
+        "warm spicy"
+      ],
+      "top_notes": [
+        "basil",
+        "coriander",
+        "grapefruit"
+      ],
+      "middle_notes": [
+        "cardamom",
+        "ginger",
+        "orange blossom"
+      ],
+      "base_notes": [
+        "amber",
+        "cedar",
+        "tobacco"
+      ],
+      "perfumers": [
+        "olivier polge"
+      ],
+      "cluster": "amber",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/dolce-gabbana/the-one-for-men-eau-de-parfum-31909.html"
+    },
+    {
+      "id": "fragrance_94",
+      "index": 94,
+      "name": "viva-la-juicy",
+      "brand": "juicy-couture",
+      "country": "USA",
+      "gender": "women",
+      "rating": 3.97,
+      "rating_count": 11351,
+      "year": null,
+      "accords": [
+        "caramel",
+        "fruity",
+        "sweet",
+        "vanilla",
+        "white floral"
+      ],
+      "top_notes": [
+        "mandarin orange",
+        "wild berries"
+      ],
+      "middle_notes": [
+        "gardenia",
+        "honeysuckle",
+        "jasmine"
+      ],
+      "base_notes": [
+        "amber",
+        "caramel",
+        "praline",
+        "sandalwood",
+        "vanilla"
+      ],
+      "perfumers": [],
+      "cluster": "white floral",
+      "seasonal": "sweet",
+      "url": "https://www.fragrantica.com/perfume/juicy-couture/viva-la-juicy-4410.html"
+    },
+    {
+      "id": "fragrance_95",
+      "index": 95,
+      "name": "ombre-leather-2018",
+      "brand": "tom-ford",
+      "country": "USA",
+      "gender": "unisex",
+      "rating": 4.34,
+      "rating_count": 11278,
+      "year": null,
+      "accords": [
+        "amber",
+        "animalic",
+        "leather",
+        "warm spicy",
+        "white floral"
+      ],
+      "top_notes": [
+        "cardamom"
+      ],
+      "middle_notes": [
+        "jasmine sambac",
+        "leather"
+      ],
+      "base_notes": [
+        "amber",
+        "moss",
+        "patchouli"
+      ],
+      "perfumers": [
+        "sonia constant"
+      ],
+      "cluster": "amber",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/tom-ford/ombre-leather-2018-50239.html"
+    },
+    {
+      "id": "fragrance_96",
+      "index": 96,
+      "name": "sauvage-elixir",
+      "brand": "dior",
+      "country": "France",
+      "gender": "men",
+      "rating": 4.33,
+      "rating_count": 11229,
+      "year": null,
+      "accords": [
+        "aromatic",
+        "fresh spicy",
+        "lavender",
+        "warm spicy",
+        "woody"
+      ],
+      "top_notes": [
+        "cardamom",
+        "cinnamon",
+        "grapefruit",
+        "nutmeg"
+      ],
+      "middle_notes": [
+        "lavender"
+      ],
+      "base_notes": [
+        "amber",
+        "haitian vetiver",
+        "licorice",
+        "patchouli",
+        "sandalwood"
+      ],
+      "perfumers": [
+        "françois demachy"
+      ],
+      "cluster": "fresh spicy",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/dior/sauvage-elixir-68415.html"
+    },
+    {
+      "id": "fragrance_97",
+      "index": 97,
+      "name": "la-nuit-tresor",
+      "brand": "lancome",
+      "country": "France",
+      "gender": "women",
+      "rating": 4.07,
+      "rating_count": 11052,
+      "year": null,
+      "accords": [
+        "caramel",
+        "fruity",
+        "sweet",
+        "vanilla",
+        "warm spicy"
+      ],
+      "top_notes": [
+        "bergamot",
+        "pear",
+        "tangerine"
+      ],
+      "middle_notes": [
+        "black rose",
+        "passionfruit",
+        "strawberry",
+        "vanilla orchid"
+      ],
+      "base_notes": [
+        "caramel",
+        "coffee",
+        "coumarin",
+        "incense",
+        "licorice",
+        "litchi",
+        "papyrus",
+        "patchouli",
+        "praline",
+        "vanilla"
+      ],
+      "perfumers": [
+        "amandine clerc-marie"
+      ],
+      "cluster": "warm spicy",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/lancome/la-nuit-tresor-29157.html"
+    },
+    {
+      "id": "fragrance_98",
+      "index": 98,
+      "name": "prada-l-homme",
+      "brand": "prada",
+      "country": "Italy",
+      "gender": "men",
+      "rating": 4.43,
+      "rating_count": 11046,
+      "year": null,
+      "accords": [
+        "fresh spicy",
+        "iris",
+        "powdery",
+        "violet",
+        "woody"
+      ],
+      "top_notes": [
+        "black pepper",
+        "cardamom",
+        "carrot seeds",
+        "neroli"
+      ],
+      "middle_notes": [
+        "geranium",
+        "iris",
+        "mate",
+        "violet"
+      ],
+      "base_notes": [
+        "amber",
+        "cedar",
+        "patchouli",
+        "sandalwood"
+      ],
+      "perfumers": [
+        "daniela (roche) andrier"
+      ],
+      "cluster": "violet",
+      "seasonal": "fall",
+      "url": "https://www.fragrantica.com/perfume/prada/prada-l-homme-39029.html"
+    },
+    {
+      "id": "fragrance_99",
+      "index": 99,
+      "name": "samsara-eau-de-parfum",
+      "brand": "guerlain",
+      "country": "France",
+      "gender": "women",
+      "rating": 4.06,
+      "rating_count": 10985,
+      "year": null,
+      "accords": [
+        "iris",
+        "powdery",
+        "vanilla",
+        "woody",
+        "yellow floral"
+      ],
+      "top_notes": [
+        "bergamot",
+        "green notes",
+        "lemon",
+        "peach",
+        "ylang-ylang"
+      ],
+      "middle_notes": [
+        "iris",
+        "jasmine",
+        "narcissus",
+        "orris root",
+        "rose",
+        "violet"
+      ],
+      "base_notes": [
+        "amber",
+        "iris",
+        "musk",
+        "sandalwood",
+        "tonka bean",
+        "vanilla"
+      ],
+      "perfumers": [
+        "jean-paul guerlain"
+      ],
+      "cluster": "yellow floral",
+      "seasonal": "winter",
+      "url": "https://www.fragrantica.com/perfume/guerlain/samsara-eau-de-parfum-55.html"
+    }
+  ],
+  "links": [
+    {
+      "source": 15,
+      "target": 44,
+      "weight": 1.0,
+      "similarity": "5 shared accords"
+    },
+    {
+      "source": 19,
+      "target": 96,
+      "weight": 1.0,
+      "similarity": "5 shared accords"
+    },
+    {
+      "source": 28,
+      "target": 59,
+      "weight": 1.0,
+      "similarity": "5 shared accords"
+    },
+    {
+      "source": 50,
+      "target": 81,
+      "weight": 1.0,
+      "similarity": "5 shared accords"
+    },
+    {
+      "source": 72,
+      "target": 93,
+      "weight": 1.0,
+      "similarity": "5 shared accords"
+    },
+    {
+      "source": 1,
+      "target": 97,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 2,
+      "target": 54,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 2,
+      "target": 64,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 3,
+      "target": 26,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 3,
+      "target": 83,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 5,
+      "target": 74,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 6,
+      "target": 29,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 6,
+      "target": 80,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 7,
+      "target": 92,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 8,
+      "target": 17,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 8,
+      "target": 51,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 9,
+      "target": 37,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 10,
+      "target": 97,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 11,
+      "target": 50,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 11,
+      "target": 64,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 11,
+      "target": 81,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 14,
+      "target": 74,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 15,
+      "target": 19,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 15,
+      "target": 28,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 15,
+      "target": 52,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 15,
+      "target": 59,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 15,
+      "target": 90,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 15,
+      "target": 96,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 16,
+      "target": 50,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 16,
+      "target": 81,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 18,
+      "target": 34,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 19,
+      "target": 23,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 19,
+      "target": 44,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 19,
+      "target": 90,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 21,
+      "target": 28,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 21,
+      "target": 59,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 22,
+      "target": 36,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 22,
+      "target": 50,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 22,
+      "target": 69,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 22,
+      "target": 81,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 23,
+      "target": 60,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 23,
+      "target": 71,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 23,
+      "target": 90,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 23,
+      "target": 96,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 25,
+      "target": 98,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 27,
+      "target": 84,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 28,
+      "target": 44,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 28,
+      "target": 72,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 28,
+      "target": 93,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 29,
+      "target": 80,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 30,
+      "target": 45,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 31,
+      "target": 65,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 32,
+      "target": 62,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 35,
+      "target": 41,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 36,
+      "target": 50,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 36,
+      "target": 69,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 36,
+      "target": 81,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 39,
+      "target": 48,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 39,
+      "target": 51,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 39,
+      "target": 91,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 39,
+      "target": 94,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 41,
+      "target": 77,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 44,
+      "target": 52,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 44,
+      "target": 59,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 44,
+      "target": 90,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 44,
+      "target": 96,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 46,
+      "target": 48,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 47,
+      "target": 67,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 47,
+      "target": 69,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 48,
+      "target": 51,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 48,
+      "target": 94,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 50,
+      "target": 53,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 50,
+      "target": 64,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 50,
+      "target": 69,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 51,
+      "target": 94,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 53,
+      "target": 81,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 57,
+      "target": 66,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 57,
+      "target": 91,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 58,
+      "target": 60,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 59,
+      "target": 72,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 59,
+      "target": 93,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 61,
+      "target": 94,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 61,
+      "target": 97,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 64,
+      "target": 81,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 67,
+      "target": 69,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 69,
+      "target": 81,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 71,
+      "target": 80,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 71,
+      "target": 90,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 74,
+      "target": 77,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 90,
+      "target": 96,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 94,
+      "target": 97,
+      "weight": 0.667,
+      "similarity": "4 shared accords"
+    },
+    {
+      "source": 3,
+      "target": 38,
+      "weight": 0.6,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 26,
+      "target": 38,
+      "weight": 0.6,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 33,
+      "target": 38,
+      "weight": 0.6,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 11,
+      "target": 20,
+      "weight": 0.5,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 20,
+      "target": 53,
+      "weight": 0.5,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 1,
+      "target": 4,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 1,
+      "target": 10,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 1,
+      "target": 61,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 1,
+      "target": 94,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 2,
+      "target": 11,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 2,
+      "target": 16,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 2,
+      "target": 28,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 2,
+      "target": 31,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 2,
+      "target": 34,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 2,
+      "target": 50,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 2,
+      "target": 53,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 2,
+      "target": 59,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 3,
+      "target": 4,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 3,
+      "target": 33,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 3,
+      "target": 46,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 3,
+      "target": 54,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 3,
+      "target": 57,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 3,
+      "target": 66,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 3,
+      "target": 91,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 4,
+      "target": 7,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 4,
+      "target": 10,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 4,
+      "target": 18,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 4,
+      "target": 31,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 4,
+      "target": 39,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 4,
+      "target": 46,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 4,
+      "target": 48,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 4,
+      "target": 51,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 5,
+      "target": 14,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 5,
+      "target": 15,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 5,
+      "target": 21,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 5,
+      "target": 28,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 5,
+      "target": 41,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 5,
+      "target": 44,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 5,
+      "target": 46,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 5,
+      "target": 59,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 5,
+      "target": 77,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 6,
+      "target": 10,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 6,
+      "target": 39,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 6,
+      "target": 48,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 6,
+      "target": 51,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 6,
+      "target": 57,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 6,
+      "target": 71,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 6,
+      "target": 78,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 6,
+      "target": 91,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 7,
+      "target": 10,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 7,
+      "target": 39,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 7,
+      "target": 48,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 7,
+      "target": 51,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 7,
+      "target": 61,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 7,
+      "target": 70,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 7,
+      "target": 94,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 7,
+      "target": 97,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 8,
+      "target": 32,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 8,
+      "target": 39,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 8,
+      "target": 46,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 8,
+      "target": 48,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 8,
+      "target": 54,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 8,
+      "target": 56,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 8,
+      "target": 66,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 8,
+      "target": 75,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 9,
+      "target": 11,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 9,
+      "target": 13,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 9,
+      "target": 15,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 9,
+      "target": 22,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 9,
+      "target": 28,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 9,
+      "target": 36,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 9,
+      "target": 44,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 9,
+      "target": 47,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 9,
+      "target": 50,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 10,
+      "target": 29,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 10,
+      "target": 39,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 10,
+      "target": 48,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 10,
+      "target": 51,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 10,
+      "target": 61,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 11,
+      "target": 15,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 11,
+      "target": 16,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 11,
+      "target": 19,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 11,
+      "target": 22,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 13,
+      "target": 23,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 13,
+      "target": 42,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 13,
+      "target": 44,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 13,
+      "target": 47,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 13,
+      "target": 52,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 13,
+      "target": 67,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 13,
+      "target": 69,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 13,
+      "target": 71,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 13,
+      "target": 90,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 14,
+      "target": 43,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 14,
+      "target": 46,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 14,
+      "target": 55,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 14,
+      "target": 77,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 14,
+      "target": 79,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 14,
+      "target": 85,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 16,
+      "target": 22,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 16,
+      "target": 26,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 16,
+      "target": 32,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 16,
+      "target": 36,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 16,
+      "target": 53,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 16,
+      "target": 54,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 17,
+      "target": 51,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 17,
+      "target": 75,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 17,
+      "target": 79,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 17,
+      "target": 84,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 18,
+      "target": 46,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 18,
+      "target": 54,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 19,
+      "target": 28,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 19,
+      "target": 42,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 19,
+      "target": 52,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 19,
+      "target": 58,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 21,
+      "target": 35,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 21,
+      "target": 41,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 21,
+      "target": 72,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 21,
+      "target": 74,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 21,
+      "target": 77,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 21,
+      "target": 78,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 21,
+      "target": 93,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 22,
+      "target": 32,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 22,
+      "target": 42,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 22,
+      "target": 47,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 23,
+      "target": 42,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 23,
+      "target": 49,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 23,
+      "target": 58,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 23,
+      "target": 80,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 25,
+      "target": 63,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 25,
+      "target": 99,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 26,
+      "target": 27,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 26,
+      "target": 33,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 26,
+      "target": 53,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 26,
+      "target": 81,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 26,
+      "target": 83,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 27,
+      "target": 33,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 27,
+      "target": 53,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 27,
+      "target": 85,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 27,
+      "target": 86,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 27,
+      "target": 91,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 29,
+      "target": 39,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 29,
+      "target": 48,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 29,
+      "target": 51,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 29,
+      "target": 57,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 29,
+      "target": 71,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 29,
+      "target": 78,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 29,
+      "target": 91,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 31,
+      "target": 58,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 31,
+      "target": 61,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 31,
+      "target": 64,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 31,
+      "target": 70,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 31,
+      "target": 90,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 32,
+      "target": 36,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 32,
+      "target": 54,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 32,
+      "target": 64,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 32,
+      "target": 66,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 32,
+      "target": 69,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 32,
+      "target": 79,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 33,
+      "target": 47,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 33,
+      "target": 86,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 33,
+      "target": 91,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 34,
+      "target": 54,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 34,
+      "target": 64,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 35,
+      "target": 59,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 35,
+      "target": 76,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 35,
+      "target": 77,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 36,
+      "target": 47,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 36,
+      "target": 53,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 36,
+      "target": 62,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 41,
+      "target": 59,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 41,
+      "target": 74,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 41,
+      "target": 76,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 41,
+      "target": 78,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 41,
+      "target": 90,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 42,
+      "target": 47,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 42,
+      "target": 52,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 42,
+      "target": 67,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 42,
+      "target": 69,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 42,
+      "target": 96,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 43,
+      "target": 61,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 43,
+      "target": 74,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 43,
+      "target": 91,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 43,
+      "target": 94,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 43,
+      "target": 97,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 45,
+      "target": 75,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 46,
+      "target": 54,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 46,
+      "target": 66,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 46,
+      "target": 74,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 47,
+      "target": 49,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 47,
+      "target": 64,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 49,
+      "target": 57,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 49,
+      "target": 58,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 49,
+      "target": 60,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 49,
+      "target": 65,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 49,
+      "target": 73,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 49,
+      "target": 80,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 49,
+      "target": 91,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 52,
+      "target": 64,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 52,
+      "target": 81,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 52,
+      "target": 90,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 52,
+      "target": 96,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 53,
+      "target": 64,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 53,
+      "target": 69,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 54,
+      "target": 56,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 54,
+      "target": 66,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 55,
+      "target": 79,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 57,
+      "target": 80,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 57,
+      "target": 94,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 58,
+      "target": 96,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 58,
+      "target": 99,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 60,
+      "target": 71,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 60,
+      "target": 80,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 60,
+      "target": 96,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 61,
+      "target": 65,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 61,
+      "target": 70,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 63,
+      "target": 98,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 63,
+      "target": 99,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 65,
+      "target": 70,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 65,
+      "target": 73,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 66,
+      "target": 91,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 66,
+      "target": 94,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 70,
+      "target": 71,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 70,
+      "target": 78,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 70,
+      "target": 80,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 70,
+      "target": 97,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 71,
+      "target": 78,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 71,
+      "target": 96,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 74,
+      "target": 78,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 75,
+      "target": 79,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 75,
+      "target": 84,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 78,
+      "target": 80,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 78,
+      "target": 88,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 78,
+      "target": 89,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 79,
+      "target": 85,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 80,
+      "target": 97,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 84,
+      "target": 85,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 98,
+      "target": 99,
+      "weight": 0.429,
+      "similarity": "3 shared accords"
+    },
+    {
+      "source": 0,
+      "target": 14,
+      "weight": 0.333,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 0,
+      "target": 17,
+      "weight": 0.333,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 0,
+      "target": 26,
+      "weight": 0.333,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 0,
+      "target": 27,
+      "weight": 0.333,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 0,
+      "target": 55,
+      "weight": 0.333,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 0,
+      "target": 76,
+      "weight": 0.333,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 0,
+      "target": 84,
+      "weight": 0.333,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 0,
+      "target": 85,
+      "weight": 0.333,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 0,
+      "target": 95,
+      "weight": 0.333,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 27,
+      "target": 38,
+      "weight": 0.333,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 34,
+      "target": 38,
+      "weight": 0.333,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 35,
+      "target": 38,
+      "weight": 0.333,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 38,
+      "target": 49,
+      "weight": 0.333,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 38,
+      "target": 57,
+      "weight": 0.333,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 38,
+      "target": 66,
+      "weight": 0.333,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 38,
+      "target": 76,
+      "weight": 0.333,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 57,
+      "target": 82,
+      "weight": 0.333,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 65,
+      "target": 82,
+      "weight": 0.333,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 66,
+      "target": 82,
+      "weight": 0.333,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 67,
+      "target": 82,
+      "weight": 0.333,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 70,
+      "target": 82,
+      "weight": 0.333,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 72,
+      "target": 82,
+      "weight": 0.333,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 73,
+      "target": 82,
+      "weight": 0.333,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 82,
+      "target": 83,
+      "weight": 0.333,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 82,
+      "target": 93,
+      "weight": 0.333,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 20,
+      "target": 25,
+      "weight": 0.286,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 20,
+      "target": 31,
+      "weight": 0.286,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 20,
+      "target": 52,
+      "weight": 0.286,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 20,
+      "target": 58,
+      "weight": 0.286,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 20,
+      "target": 83,
+      "weight": 0.286,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 20,
+      "target": 87,
+      "weight": 0.286,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 1,
+      "target": 18,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 1,
+      "target": 30,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 1,
+      "target": 43,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 1,
+      "target": 56,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 1,
+      "target": 62,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 12,
+      "target": 62,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 12,
+      "target": 68,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 12,
+      "target": 95,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 14,
+      "target": 18,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 17,
+      "target": 26,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 17,
+      "target": 27,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 17,
+      "target": 45,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 17,
+      "target": 55,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 18,
+      "target": 24,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 18,
+      "target": 30,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 18,
+      "target": 31,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 18,
+      "target": 56,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 24,
+      "target": 34,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 24,
+      "target": 95,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 24,
+      "target": 98,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 25,
+      "target": 33,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 25,
+      "target": 40,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 25,
+      "target": 55,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 25,
+      "target": 58,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 25,
+      "target": 74,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 25,
+      "target": 77,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 30,
+      "target": 56,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 30,
+      "target": 61,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 30,
+      "target": 70,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 30,
+      "target": 75,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 30,
+      "target": 79,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 30,
+      "target": 92,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 30,
+      "target": 97,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 33,
+      "target": 34,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 33,
+      "target": 35,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 34,
+      "target": 35,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 34,
+      "target": 62,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 34,
+      "target": 65,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 35,
+      "target": 37,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 35,
+      "target": 43,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 37,
+      "target": 62,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 37,
+      "target": 67,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 37,
+      "target": 72,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 37,
+      "target": 93,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 40,
+      "target": 43,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 40,
+      "target": 55,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 40,
+      "target": 74,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 40,
+      "target": 79,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 40,
+      "target": 85,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 40,
+      "target": 86,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 40,
+      "target": 89,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 40,
+      "target": 98,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 41,
+      "target": 43,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 42,
+      "target": 58,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 45,
+      "target": 56,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 45,
+      "target": 67,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 55,
+      "target": 75,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 55,
+      "target": 77,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 55,
+      "target": 84,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 55,
+      "target": 85,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 56,
+      "target": 75,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 56,
+      "target": 79,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 56,
+      "target": 92,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 56,
+      "target": 97,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 60,
+      "target": 65,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 60,
+      "target": 72,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 60,
+      "target": 73,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 60,
+      "target": 77,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 62,
+      "target": 65,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 62,
+      "target": 67,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 62,
+      "target": 72,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 62,
+      "target": 75,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 63,
+      "target": 75,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 63,
+      "target": 77,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 63,
+      "target": 84,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 63,
+      "target": 87,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 65,
+      "target": 67,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 67,
+      "target": 72,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 68,
+      "target": 88,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 72,
+      "target": 73,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 73,
+      "target": 93,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 76,
+      "target": 88,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 76,
+      "target": 95,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 76,
+      "target": 99,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 79,
+      "target": 84,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 83,
+      "target": 87,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 83,
+      "target": 88,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 84,
+      "target": 86,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 84,
+      "target": 87,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 85,
+      "target": 86,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 85,
+      "target": 99,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 86,
+      "target": 98,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 87,
+      "target": 98,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 87,
+      "target": 99,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 88,
+      "target": 89,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 88,
+      "target": 99,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 89,
+      "target": 93,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 93,
+      "target": 95,
+      "weight": 0.25,
+      "similarity": "2 shared accords"
+    },
+    {
+      "source": 20,
+      "target": 82,
+      "weight": 0.167,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 0,
+      "target": 12,
+      "weight": 0.143,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 20,
+      "target": 24,
+      "weight": 0.125,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 12,
+      "target": 24,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 12,
+      "target": 37,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 12,
+      "target": 76,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 12,
+      "target": 85,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 12,
+      "target": 86,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 12,
+      "target": 89,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 24,
+      "target": 37,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 24,
+      "target": 45,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 24,
+      "target": 63,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 24,
+      "target": 76,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 37,
+      "target": 45,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 37,
+      "target": 68,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 40,
+      "target": 63,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 45,
+      "target": 63,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 45,
+      "target": 86,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 45,
+      "target": 92,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 68,
+      "target": 73,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 68,
+      "target": 76,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 68,
+      "target": 83,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 68,
+      "target": 87,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 68,
+      "target": 89,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 68,
+      "target": 92,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 68,
+      "target": 99,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 73,
+      "target": 83,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 73,
+      "target": 86,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 73,
+      "target": 88,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 83,
+      "target": 86,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 83,
+      "target": 89,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 87,
+      "target": 88,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 88,
+      "target": 92,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 88,
+      "target": 93,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 89,
+      "target": 92,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    },
+    {
+      "source": 89,
+      "target": 95,
+      "weight": 0.111,
+      "similarity": "1 shared accord"
+    }
+  ],
+  "metadata": {
+    "total_fragrances": 100,
+    "total_connections": 493,
+    "clusters": {
+      "floral": {
+        "count": 1,
+        "avg_rating": 4.0,
+        "brands": 1
+      },
+      "warm spicy": {
+        "count": 2,
+        "avg_rating": 3.82,
+        "brands": 2
+      },
+      "woody": {
+        "count": 7,
+        "avg_rating": 3.92,
+        "brands": 5
+      },
+      "amber": {
+        "count": 18,
+        "avg_rating": 4.07,
+        "brands": 11
+      },
+      "white floral": {
+        "count": 12,
+        "avg_rating": 3.91,
+        "brands": 10
+      },
+      "nutty": {
+        "count": 2,
+        "avg_rating": 4.11,
+        "brands": 2
+      },
+      "fresh spicy": {
+        "count": 24,
+        "avg_rating": 4.1,
+        "brands": 14
+      },
+      "tobacco": {
+        "count": 2,
+        "avg_rating": 4.22,
+        "brands": 2
+      },
+      "smoky": {
+        "count": 2,
+        "avg_rating": 4.25,
+        "brands": 2
+      },
+      "earthy": {
+        "count": 1,
+        "avg_rating": 4.18,
+        "brands": 1
+      },
+      "violet": {
+        "count": 4,
+        "avg_rating": 4.09,
+        "brands": 4
+      },
+      "musky": {
+        "count": 5,
+        "avg_rating": 3.99,
+        "brands": 4
+      },
+      "green": {
+        "count": 4,
+        "avg_rating": 3.8,
+        "brands": 4
+      },
+      "soft spicy": {
+        "count": 5,
+        "avg_rating": 3.91,
+        "brands": 5
+      },
+      "lavender": {
+        "count": 3,
+        "avg_rating": 4.2,
+        "brands": 3
+      },
+      "tropical": {
+        "count": 1,
+        "avg_rating": 3.93,
+        "brands": 1
+      },
+      "honey": {
+        "count": 2,
+        "avg_rating": 3.8,
+        "brands": 2
+      },
+      "cinnamon": {
+        "count": 1,
+        "avg_rating": 4.44,
+        "brands": 1
+      },
+      "aldehydic": {
+        "count": 1,
+        "avg_rating": 4.26,
+        "brands": 1
+      },
+      "powdery": {
+        "count": 1,
+        "avg_rating": 3.64,
+        "brands": 1
+      },
+      "aromatic": {
+        "count": 1,
+        "avg_rating": 3.92,
+        "brands": 1
+      },
+      "yellow floral": {
+        "count": 1,
+        "avg_rating": 4.06,
+        "brands": 1
+      }
+    },
+    "attributes": {
+      "brands": [
+        "aquolina",
+        "ariana-grande",
+        "armaf",
+        "britney-spears",
+        "by-kilian",
+        "byredo",
+        "cacharel",
+        "calvin-klein",
+        "carolina-herrera",
+        "chanel",
+        "chloe",
+        "creed",
+        "davidoff",
+        "dior",
+        "dolce-gabbana",
+        "donna-karan",
+        "elizabeth-arden",
+        "giorgio-armani",
+        "givenchy",
+        "guerlain",
+        "hermes",
+        "issey-miyake",
+        "jean-paul-gaultier",
+        "juicy-couture",
+        "kenzo",
+        "lalique",
+        "lancome",
+        "lolita-lempicka",
+        "maison-francis-kurkdjian",
+        "maison-martin-margiela",
+        "marc-jacobs",
+        "moschino",
+        "mugler",
+        "narciso-rodriguez",
+        "nautica",
+        "nina-ricci",
+        "paco-rabanne",
+        "parfums-de-marly",
+        "prada",
+        "tom-ford",
+        "versace",
+        "viktor-rolf",
+        "yves-saint-laurent"
+      ],
+      "genders": [
+        "men",
+        "unisex",
+        "women"
+      ],
+      "years": [],
+      "accords": [
+        "aldehydic",
+        "almond",
+        "amber",
+        "animalic",
+        "anis",
+        "aquatic",
+        "aromatic",
+        "balsamic",
+        "cacao",
+        "caramel",
+        "cherry",
+        "chocolate",
+        "cinnamon",
+        "citrus",
+        "coconut",
+        "coffee",
+        "earthy",
+        "floral",
+        "fresh",
+        "fresh spicy",
+        "fruity",
+        "green",
+        "honey",
+        "iris",
+        "lactonic",
+        "lavender",
+        "leather",
+        "marine",
+        "musky",
+        "nutty",
+        "ozonic",
+        "patchouli",
+        "powdery",
+        "rose",
+        "rum",
+        "salty",
+        "smoky",
+        "soft spicy",
+        "sweet",
+        "tobacco",
+        "tropical",
+        "vanilla",
+        "violet",
+        "warm spicy",
+        "white floral",
+        "woody",
+        "yellow floral"
+      ],
+      "notes": [
+        "african orange flower",
+        "aldehydes",
+        "almond",
+        "amalfi lemon",
+        "amaryllis",
+        "amber",
+        "ambergris",
+        "amberwood",
+        "ambrette (musk mallow)",
+        "ambroxan",
+        "anise",
+        "apple",
+        "apple tree",
+        "apricot",
+        "apricot blossom",
+        "artemisia",
+        "atlas cedar",
+        "australian sandalwood",
+        "bamboo",
+        "basil",
+        "bellflower",
+        "benzoin",
+        "bergamot",
+        "birch",
+        "bitter almond",
+        "bitter orange",
+        "black cherry",
+        "black currant",
+        "black orchid",
+        "black pepper",
+        "black rose",
+        "black vanilla husk",
+        "black violet",
+        "blackberry",
+        "blood grapefruit",
+        "blood mandarin",
+        "blue lotus",
+        "bourbon geranium",
+        "brazilian rosewood",
+        "brown sugar",
+        "bulgarian rose",
+        "bulrush",
+        "cacao",
+        "calabrian bergamot",
+        "calone",
+        "carambola (star fruit)",
+        "caramel",
+        "caraway",
+        "cardamom",
+        "carnation",
+        "carrot",
+        "carrot seeds",
+        "cashmeran",
+        "cashmere wood",
+        "cassia",
+        "cassis",
+        "cedar",
+        "cedarwood",
+        "celery seeds",
+        "ceylon cinnamon",
+        "chamomile",
+        "champaca",
+        "cherry",
+        "cherry liqueur",
+        "chestnut",
+        "chocolate",
+        "cinnamon",
+        "citron",
+        "citruses",
+        "civet",
+        "clary sage",
+        "clover",
+        "cloves",
+        "coconut",
+        "coffee",
+        "cognac",
+        "coriander",
+        "cotton candy",
+        "coumarin",
+        "cucumber",
+        "cumin",
+        "cupcake",
+        "cyclamen",
+        "cypress",
+        "datura",
+        "dried fruits",
+        "elemi",
+        "elemi resin",
+        "fennel",
+        "fig leaf",
+        "fir resin",
+        "flint",
+        "freesia",
+        "french labdanum",
+        "fruity notes",
+        "gardenia",
+        "geranium",
+        "ginger",
+        "ginger flower",
+        "granny smith apple",
+        "grapefruit",
+        "green accord",
+        "green apple",
+        "green grass",
+        "green leaves",
+        "green mandarin",
+        "green mango",
+        "green notes",
+        "green tea",
+        "guaiac wood",
+        "haitian vetiver",
+        "hawthorn",
+        "heliotrope",
+        "hiacynth",
+        "himalayan poppy",
+        "honey",
+        "honeysuckle",
+        "hyacinth",
+        "ice",
+        "incense",
+        "indian patchouli",
+        "iris",
+        "iso e super",
+        "italian orange",
+        "ivy",
+        "jasmine",
+        "jasmine sambac",
+        "java vetiver oil",
+        "juniper",
+        "juniper berries",
+        "kiwi",
+        "labdanum",
+        "lavender",
+        "leather",
+        "lemon",
+        "lemon tree",
+        "lemon verbena",
+        "licorice",
+        "lilac",
+        "lily",
+        "lily-of-the-valley",
+        "lime",
+        "litchi",
+        "lotus",
+        "madagascar vanilla",
+        "magnolia",
+        "mahogany",
+        "mandarin leaf",
+        "mandarin orange",
+        "mango",
+        "mate",
+        "may rose",
+        "melon",
+        "mexican chocolate",
+        "mignonette",
+        "mimosa",
+        "mint",
+        "moroccan jasmine",
+        "moss",
+        "musk",
+        "mysore sandalwood",
+        "narcissus",
+        "neroli",
+        "night blooming cereus",
+        "nutmeg",
+        "nutmeg flower",
+        "oak",
+        "oak moss",
+        "oakmoss",
+        "olibanum",
+        "opoponax",
+        "orange",
+        "orange blossom",
+        "orange peel",
+        "orchid",
+        "oriental notes",
+        "orris",
+        "orris root",
+        "osmanthus",
+        "papaya",
+        "paprika",
+        "papyrus",
+        "parma violet",
+        "passion flower",
+        "passionfruit",
+        "patchouli",
+        "peach",
+        "pear",
+        "pelargonium",
+        "peony",
+        "pepper",
+        "persimmon",
+        "peru balsam",
+        "petitgrain",
+        "pineapple",
+        "pink pepper",
+        "plum",
+        "pomegranate",
+        "powdery notes",
+        "praline",
+        "quince",
+        "raspberry",
+        "red berries",
+        "red currant",
+        "red litchi",
+        "rhubarb",
+        "rhuburb",
+        "rose",
+        "rose de mai",
+        "rosemary",
+        "rum",
+        "saffron",
+        "sage",
+        "salt",
+        "sandalwood",
+        "sea notes",
+        "sea water",
+        "sichuan pepper",
+        "sicilian lemon",
+        "sicilian mandarin",
+        "silk tree blossom",
+        "sour cherry",
+        "spices",
+        "spicy notes",
+        "star anise",
+        "strawberry",
+        "styrax",
+        "sugar cane",
+        "sycamore",
+        "tagetes",
+        "tahitian vanilla",
+        "tahitian vetiver",
+        "tangerine",
+        "tarragon",
+        "tea",
+        "tea rose",
+        "teak wood",
+        "thanaka wood",
+        "thyme",
+        "tobacco",
+        "tobacco blossom",
+        "tobacco leaf",
+        "tomato",
+        "tonka bean",
+        "truffle",
+        "tuberose",
+        "turkish rose",
+        "vanilla",
+        "vanilla bean",
+        "vanilla flower",
+        "vanilla orchid",
+        "vanille",
+        "vetiver",
+        "violet",
+        "violet leaf",
+        "virginia cedar",
+        "virginian cedar",
+        "wallflower",
+        "water hyacinth",
+        "water jasmine",
+        "water notes",
+        "watermelon",
+        "whipped cream",
+        "white amber",
+        "white chocolate",
+        "white honey",
+        "white musk",
+        "white rose",
+        "white woods",
+        "wild berries",
+        "woodsy notes",
+        "woody notes",
+        "ylang-ylang",
+        "yuzu"
+      ],
+      "countries": [
+        "France",
+        "Italy",
+        "Japan",
+        "Netherlands",
+        "Spain",
+        "Sweden",
+        "Switzerland",
+        "UAE",
+        "USA"
+      ]
+    },
+    "generated_at": "2026-04-05T00:37:29.706561"
+  }
+}
