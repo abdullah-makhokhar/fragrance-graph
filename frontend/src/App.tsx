@@ -8,6 +8,15 @@ import { CONFIG, DEFAULT_FILTERS } from './config';
 
 function App() {
   const [graphData, setGraphData] = useState<GraphData | null>(null);
+  const [filteredData, setFilteredData] = useState<GraphData | null>(null);
+  const [selectedNode, setSelectedNode] = useState<Fragrance | null>(null);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [filters, setFilters] = useState<Filters>(DEFAULT_FILTERS);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const [refreshKey, setRefreshKey] = useState(0);
+  const [darkMode, setDarkMode] = useState(CONFIG.defaults.defaultDarkMode);
+  const [fragranceCount, setFragranceCount] = useState(CONFIG.defaults.fragranceCount);
   const [spotlightNode, setSpotlightNode] = useState<Fragrance | null>(null);
   const [highlightedIds, setHighlightedIds] = useState<Set<string>>(new Set());
 
