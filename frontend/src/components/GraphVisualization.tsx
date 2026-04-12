@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState, useMemo } from 'react';
 import * as d3 from 'd3';
-import { Fragrance, Link, GraphData } from '../types';
+import { Fragrance, GraphData } from '../types';
 import { CONFIG } from '../config';
 
 interface GraphVisualizationProps {
@@ -213,7 +213,7 @@ const GraphVisualization: React.FC<GraphVisualizationProps> = ({
       canvas.removeEventListener('mousemove', handleMouseMove);
       canvas.removeEventListener('click', handleClick);
     };
-  }, [data, selectedNode, darkMode]);
+  }, [data, selectedNode, darkMode, onNodeSelect, calculateNodeSize, connectionInfo.adjacency]);
 
   const handleZoom = (factor: number) => {
     if (zoomRef.current && canvasRef.current) {
