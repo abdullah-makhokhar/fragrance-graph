@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState, useMemo } from 'react';
+import React, { useEffect, useRef, useState, useMemo, useCallback } from 'react';
 import * as d3 from 'd3';
 import { Fragrance, GraphData } from '../types';
 import { CONFIG } from '../config';
@@ -47,6 +47,7 @@ const GraphVisualization: React.FC<GraphVisualizationProps> = ({
   const [tooltipPos, setTooltipPos] = useState({ x: 0, y: 0 });
   
   const simulationRef = useRef<d3.Simulation<any, any> | null>(null);
+  const lastProcessedRefreshKey = useRef<number>(-1);
   
   const connectionInfo = useMemo(() => {
     const counts = new Map<string, number>();
@@ -66,11 +67,11 @@ const GraphVisualization: React.FC<GraphVisualizationProps> = ({
     return { counts, adjacency };
   }, [data]);
 
-  const calculateNodeSize = (node: Fragrance) => {
+  const calculateNodeSize = useCallback((node: Fragrance) => {
     const count = connectionInfo.counts.get(node.id) || 0;
     const { baseSize, connectivityMultiplier, ratingMultiplier } = CONFIG.node;
     return baseSize + Math.sqrt(count) * connectivityMultiplier + (node.rating / 5) * ratingMultiplier;
-  };
+  }, [connectionInfo.counts]);
 
   useEffect(() => {
     if (!canvasRef.current || !containerRef.current) return;
@@ -90,7 +91,7 @@ const GraphVisualization: React.FC<GraphVisualizationProps> = ({
     const { physics, interaction } = CONFIG;
 
     // If refreshKey changed, we want to re-randomize positions
-    if (refreshKey && refreshKey > 0) {
+    if (refreshKey !== undefined && refreshKey > lastProcessedRefreshKey.current) {
       data.nodes.forEach((n: any) => {
         // Start nodes in a small random cluster near the center for a nice expansion effect
         n.x = width / 2 + (Math.random() - 0.5) * 100;
@@ -98,6 +99,7 @@ const GraphVisualization: React.FC<GraphVisualizationProps> = ({
         n.vx = 0;
         n.vy = 0;
       });
+      lastProcessedRefreshKey.current = refreshKey;
     }
 
     // Simulation setup
