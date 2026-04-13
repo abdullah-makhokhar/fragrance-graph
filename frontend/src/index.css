@@ -40,8 +40,12 @@ body {
   overflow: hidden;
 }
 
-h1, h2, h3, h4, .font-display {
-  font-family: 'Outfit', sans-serif;
+h1,
+h2,
+h3,
+h4,
+.font-display {
+  font-family: 'Inter', sans-serif;
 }
 
 code {
@@ -82,11 +86,13 @@ code {
 }
 
 /* Google-style Inputs */
-input[type="text"], input[type="search"] {
+input[type="text"],
+input[type="search"] {
   @apply px-4 py-2 bg-slate-50 border border-slate-200 rounded-full focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 outline-none transition-all;
 }
 
-.dark input[type="text"], .dark input[type="search"] {
+.dark input[type="text"],
+.dark input[type="search"] {
   @apply bg-slate-800 border-slate-700;
 }
 
