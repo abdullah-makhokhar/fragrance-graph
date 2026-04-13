@@ -92,10 +92,11 @@ const GraphVisualization: React.FC<GraphVisualizationProps> = ({
     // If refreshKey changed, we want to re-randomize positions
     if (refreshKey && refreshKey > 0) {
       data.nodes.forEach((n: any) => {
-        delete n.x;
-        delete n.y;
-        delete n.vx;
-        delete n.vy;
+        // Start nodes in a small random cluster near the center for a nice expansion effect
+        n.x = width / 2 + (Math.random() - 0.5) * 100;
+        n.y = height / 2 + (Math.random() - 0.5) * 100;
+        n.vx = 0;
+        n.vy = 0;
       });
     }
 
