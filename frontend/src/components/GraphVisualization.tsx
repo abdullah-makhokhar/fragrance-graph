@@ -223,7 +223,9 @@ const GraphVisualization: React.FC<GraphVisualizationProps> = ({
       });
 
     zoomRef.current = zoom;
-    d3.select(canvas).call(zoom as any);
+    d3.select(canvas)
+      .call(zoom as any)
+      .call(zoom.transform as any, transformRef.current);
 
     const handleMouseMove = (event: MouseEvent) => {
       const rect = canvas.getBoundingClientRect();

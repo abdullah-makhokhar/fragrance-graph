@@ -45,7 +45,7 @@ def clean_accords(accord_str: str) -> Set[str]:
     # Split by semicolon, strip whitespace, remove empty strings, lowercase
     accords = set()
     for accord in str(accord_str).split(';'):
-        accord = accord.strip().lower()
+        accord = accord.replace('-', ' ').strip().lower()
         if accord and accord != 'unknown':
             accords.add(accord)
     return accords
@@ -59,7 +59,7 @@ def clean_notes(notes_str: str) -> Set[str]:
     # Split by comma, strip whitespace, remove empty strings, lowercase
     notes = set()
     for note in str(notes_str).split(','):
-        note = note.strip().lower()
+        note = note.replace('-', ' ').strip().lower()
         if note and note != 'unknown':
             notes.add(note)
     return notes
@@ -353,6 +353,12 @@ def main():
     
     # Select top fragrances
     df_top = select_top_fragrances(df, TOP_N_FRAGRANCES)
+    
+    # Apply text formatting
+    if 'Brand' in df_top.columns:
+        df_top['Brand'] = df_top['Brand'].astype(str).str.replace('-', ' ').str.title()
+    if 'Perfume' in df_top.columns:
+        df_top['Perfume'] = df_top['Perfume'].astype(str).str.replace('-', ' ').str.title()
     
     # Extract attributes for filters
     print("Extracting fragrance attributes...")

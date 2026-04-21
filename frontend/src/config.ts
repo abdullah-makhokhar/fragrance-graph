@@ -12,7 +12,7 @@ export const CONFIG = {
     linkDistanceWeight: 80,   // How much similarity weight affects distance
     linkStrength: 0.5,        // Strength of the link force (0-1)
     chargeStrength: -4000,     // Repulsion force between nodes (negative = repels)
-    chargeMaxDistance: 10000,  // Max distance for repulsion to act
+    chargeMaxDistance: 4000,  // Max distance for repulsion to act
     centerStrength: 0.5,      // Strength of force pulling to center
     collisionRadiusPlus: 8,   // Extra padding around nodes for collision
     velocityDecay: 0.4,       // Friction (0-1, higher = slower movement)
@@ -56,7 +56,7 @@ export const CONFIG = {
     // Theme colors
     light: {
       bg: '#ffffff',
-      linkDefault: '#b5b5b5ff',
+      linkDefault: '#d6cacaff',
       linkHover: '#F59E0B',
       text: '#1e293b',
       border: '#e2e8f0',
@@ -73,10 +73,10 @@ export const CONFIG = {
   // Interaction Settings
   interaction: {
     zoomExtent: [0.05, 6] as [number, number], // Min and Max zoom levels
-    magnificationRadius: 100,                 // Distance at which dock effect starts
-    magnificationStrength: 1.5,               // Max size multiplier at cursor
+    magnificationRadius: 1000,                 // Distance at which dock effect starts
+    magnificationStrength: 3,               // Max size multiplier at cursor
     clickPickRadius: 25,                      // Mouse sensitivity for picking nodes
-    labelZoomThreshold: 1.2,                  // Zoom level at which labels appear
+    labelZoomThreshold: 0.3,                  // Zoom level at which labels appear
   },
 
   // Node Sizing Constants

@@ -31,9 +31,6 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ node, onClose, darkMode, onSp
               <div className="px-3 py-1 rounded-full bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 text-[10px] font-bold uppercase tracking-widest">
                 {node.gender}
               </div>
-              <div className="px-3 py-1 rounded-full bg-emerald-100 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400 text-[10px] font-black uppercase tracking-widest">
-                Est. ${node.price.toFixed(0)}
-              </div>
             </div>
             <h2 className="text-4xl font-bold font-display text-slate-900 dark:text-white leading-tight tracking-tight">
               {node.name}
@@ -69,7 +66,7 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ node, onClose, darkMode, onSp
           <div className="grid grid-cols-2 gap-6">
             <div>
               <h4 className="text-xs font-bold text-slate-900 dark:text-white uppercase tracking-widest mb-3 flex items-center gap-2">
-                <span>🗓️</span> Best Seasons
+                <span></span> Best Seasons
               </h4>
               <div className="flex flex-wrap gap-2">
                 {node.seasons.map(s => (
@@ -79,7 +76,7 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ node, onClose, darkMode, onSp
             </div>
             <div>
               <h4 className="text-xs font-bold text-slate-900 dark:text-white uppercase tracking-widest mb-3 flex items-center gap-2">
-                <span>💼</span> Occasions
+                <span></span> Occasions
               </h4>
               <div className="flex flex-wrap gap-2">
                 {node.occasions.map(o => (
@@ -111,7 +108,7 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ node, onClose, darkMode, onSp
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="space-y-3">
               <div className="flex items-center gap-2 text-[10px] font-bold text-green-600 dark:text-green-400 uppercase tracking-widest">
-                <span>🌿</span> Top Notes
+                <span></span> Top Notes
               </div>
               <ul className="text-sm text-slate-600 dark:text-slate-400 space-y-1 font-medium">
                 {node.top_notes.map(note => <li key={note}>• {note}</li>)}
@@ -119,7 +116,7 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ node, onClose, darkMode, onSp
             </div>
             <div className="space-y-3">
               <div className="flex items-center gap-2 text-[10px] font-bold text-pink-600 dark:text-pink-400 uppercase tracking-widest">
-                <span>🌸</span> Heart Notes
+                <span></span> Heart Notes
               </div>
               <ul className="text-sm text-slate-600 dark:text-slate-400 space-y-1 font-medium">
                 {node.middle_notes.map(note => <li key={note}>• {note}</li>)}
@@ -127,7 +124,7 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ node, onClose, darkMode, onSp
             </div>
             <div className="space-y-3">
               <div className="flex items-center gap-2 text-[10px] font-bold text-amber-900 dark:text-amber-500 uppercase tracking-widest">
-                <span>🪵</span> Base Notes
+                <span></span> Base Notes
               </div>
               <ul className="text-sm text-slate-600 dark:text-slate-400 space-y-1 font-medium">
                 {node.base_notes.map(note => <li key={note}>• {note}</li>)}
@@ -142,7 +139,7 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ node, onClose, darkMode, onSp
             onClick={() => onSpotlight(node)}
             className="flex-1 h-14 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-2xl flex items-center justify-center gap-3 transition-all hover:scale-[1.02] active:scale-95 shadow-lg shadow-blue-500/20"
           >
-            <span>🔦</span>
+            <span></span>
             Spotlight Mode
           </button>
           <a
